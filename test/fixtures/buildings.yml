@@ -1,0 +1,32 @@
+# == Schema Information
+#
+# Table name: buildings
+#
+#  id          :integer          not null, primary key
+#  building_id :integer
+#  nr          :string(255)
+#  name        :string(255)
+#  address     :string(255)
+#  built_year  :integer
+#  campus_id   :integer
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  buildingId: 1
+  name: MyString
+  nr: MyString
+  address: MyString
+  builtYear: 1
+  campusId: 1
+
+two:
+  buildingId: 1
+  name: MyString
+  nr: MyString
+  address: MyString
+  builtYear: 1
+  campusId: 1

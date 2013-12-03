@@ -6,8 +6,9 @@
     = f.input :reward
     = f.input :deadline_date, as: :string, input_html: { class: 'datepicker' }
     = f.input :deadline_time, as: :string, input_html: { class: 'timepicker' }
-    = f.input :building_id, as: :string, input_html: { id: 'typeahead_building'}
-    = f.input :room_id, as: :string, input_html: { id: 'typeahead_room' }
+    = f.input :building, input_html: { class: 'chosen' }
+    /
+    /= f.input :room_id, as: :string, input_html: { id: 'typeahead_room' }
 
   = f.actions do
     = f.action :submit, as: :button

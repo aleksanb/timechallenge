@@ -3,6 +3,8 @@
   = @challenge.reward
 %p
   = "#{l @challenge.deadline_time}. #{l @challenge.deadline_date}"
+%p
+  = @challenge.building.name
 %ul
   - @challenge.users.each do |user|
     %li= user.name

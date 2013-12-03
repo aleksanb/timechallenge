@@ -1,1904 +1,1898 @@
-{
-    "buildings": [
-        {
-            "id": 139,
-            "nr": "175",
-            "name": "Det ensomme fengsel",
-            "address": "Erling Skakkes gate 57 / 59",
-            "builtYear": "1856",
-            "campusId": 1
-        },
-        {
-            "id": 651,
-            "nr": "2-320",
-            "name": "1902-bygget",
-            "address": "-",
-            "builtYear": "1902",
-            "campusId": 2
-        },
-        {
-            "id": 1191,
-            "nr": null,
-            "name": "AMOS - Centre for Autonomous Marine Operations and Systems ",
-            "address": null,
-            "builtYear": null,
-            "campusId": 77
-        },
-        {
-            "id": 871,
-            "nr": "2-340",
-            "name": "Akutt/hjerte/lungesenteret",
-            "address": "Prinsesse Kristinas gate 3",
-            "builtYear": "2010",
-            "campusId": 2
-        },
-        {
-            "id": 332,
-            "nr": "093b",
-            "name": "Alexander Holsts veg 3",
-            "address": "Alexander Holsts veg 3",
-            "builtYear": "1970",
-            "campusId": 51
-        },
-        {
-            "id": 370,
-            "nr": "092c",
-            "name": "Arne Fjellbus veg 6D",
-            "address": "Arne Fjellbus veg 6D",
-            "builtYear": "1970",
-            "campusId": 51
-        },
-        {
-            "id": 3,
-            "nr": "333",
-            "name": "Berg",
-            "address": "Alfred Getz' vei 2",
-            "builtYear": "1981",
-            "campusId": 3
-        },
-        {
-            "id": 851,
-            "nr": "2-310",
-            "name": "Bevegelsessenteret",
-            "address": "Olav Kyrres gate 13",
-            "builtYear": "2009",
-            "campusId": 2
-        },
-        {
-            "id": 73,
-            "nr": "080",
-            "name": "Biologisk stasjon",
-            "address": "Bynesveien 46",
-            "builtYear": "1986",
-            "campusId": 10
-        },
-        {
-            "id": 511,
-            "nr": "025",
-            "name": "Brattørkaia 17B",
-            "address": "Brattørkaia 17B",
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 333,
-            "nr": "093a",
-            "name": "Brundalen 27",
-            "address": "Brundalen 27",
-            "builtYear": "1970",
-            "campusId": 51
-        },
-        {
-            "id": 334,
-            "nr": "093c",
-            "name": "Brundalsgrenda 21",
-            "address": "Brundalsgrenda 21",
-            "builtYear": "1970",
-            "campusId": 51
-        },
-        {
-            "id": 335,
-            "nr": "093d",
-            "name": "Brundalsgrenda 26",
-            "address": "Brundalsgrenda 26",
-            "builtYear": "1970",
-            "campusId": 51
-        },
-        {
-            "id": 911,
-            "nr": "847",
-            "name": "Byggelederbrakke",
-            "address": "Edvard Bulls vei 1",
-            "builtYear": "1978",
-            "campusId": 52
-        },
-        {
-            "id": 4,
-            "nr": "337",
-            "name": "Byggteknisk",
-            "address": "Høgskoleringen 7",
-            "builtYear": "1975",
-            "campusId": 3
-        },
-        {
-            "id": 173,
-            "nr": "081",
-            "name": "Bynesveien 46B",
-            "address": "Bynesveien 46B",
-            "builtYear": "1956",
-            "campusId": 10
-        },
-        {
-            "id": 1193,
-            "nr": null,
-            "name": "CEMIR - Centre of Molecular Inflammation Research ",
-            "address": null,
-            "builtYear": null,
-            "campusId": 78
-        },
-        {
-            "id": 1194,
-            "nr": null,
-            "name": "Centre for Dynamics of Biological Diversity",
-            "address": null,
-            "builtYear": null,
-            "campusId": 74
-        },
-        {
-            "id": 1150,
-            "nr": null,
-            "name": "Department of Adult Learning and Counselling",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1121,
-            "nr": null,
-            "name": "Department of Archaeology and Religious Studies",
-            "address": null,
-            "builtYear": null,
-            "campusId": 73
-        },
-        {
-            "id": 1100,
-            "nr": null,
-            "name": "Department of Architectural Design and Management",
-            "address": null,
-            "builtYear": null,
-            "campusId": 71
-        },
-        {
-            "id": 1099,
-            "nr": null,
-            "name": "Department of Architectural Design, Form and Colour Studies",
-            "address": null,
-            "builtYear": null,
-            "campusId": 71
-        },
-        {
-            "id": 1101,
-            "nr": null,
-            "name": "Department of Architectural Design, History and Technology ",
-            "address": null,
-            "builtYear": null,
-            "campusId": 71
-        },
-        {
-            "id": 1119,
-            "nr": null,
-            "name": "Department of Art and Media Studies",
-            "address": null,
-            "builtYear": null,
-            "campusId": 73
-        },
-        {
-            "id": 1124,
-            "nr": null,
-            "name": "Department of Biology",
-            "address": null,
-            "builtYear": null,
-            "campusId": 74
-        },
-        {
-            "id": 1123,
-            "nr": null,
-            "name": "Department of Biotechnology",
-            "address": null,
-            "builtYear": null,
-            "campusId": 74
-        },
-        {
-            "id": 1139,
-            "nr": null,
-            "name": "Department of Cancer Research and Molecular Medicine",
-            "address": null,
-            "builtYear": null,
-            "campusId": 78
-        },
-        {
-            "id": 1126,
-            "nr": null,
-            "name": "Department of Chemical Engineering",
-            "address": null,
-            "builtYear": null,
-            "campusId": 74
-        },
-        {
-            "id": 1125,
-            "nr": null,
-            "name": "Department of Chemistry ",
-            "address": null,
-            "builtYear": null,
-            "campusId": 74
-        },
-        {
-            "id": 1138,
-            "nr": null,
-            "name": "Department of Circulation and Medical Imaging",
-            "address": null,
-            "builtYear": null,
-            "campusId": 78
-        },
-        {
-            "id": 1103,
-            "nr": null,
-            "name": "Department of Civil and Transport Engineering",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1129,
-            "nr": null,
-            "name": "Department of Computer and Information Science",
-            "address": null,
-            "builtYear": null,
-            "campusId": 77
-        },
-        {
-            "id": 1142,
-            "nr": null,
-            "name": "Department of Economics",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1145,
-            "nr": null,
-            "name": "Department of Education",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1131,
-            "nr": null,
-            "name": "Department of Electric Power Engineering",
-            "address": null,
-            "builtYear": null,
-            "campusId": 77
-        },
-        {
-            "id": 1134,
-            "nr": null,
-            "name": "Department of Electronics and Telecommunications",
-            "address": null,
-            "builtYear": null,
-            "campusId": 77
-        },
-        {
-            "id": 1105,
-            "nr": null,
-            "name": "Department of Energy and Process Engineering",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1132,
-            "nr": null,
-            "name": "Department of Engineering Cybernetics",
-            "address": null,
-            "builtYear": null,
-            "campusId": 77
-        },
-        {
-            "id": 1110,
-            "nr": null,
-            "name": "Department of Engineering Design and Materials",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1098,
-            "nr": null,
-            "name": "Department of Fine Art - The Trondheim Academy of Fine Art",
-            "address": null,
-            "builtYear": null,
-            "campusId": 71
-        },
-        {
-            "id": 1140,
-            "nr": null,
-            "name": "Department of Geography",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1108,
-            "nr": null,
-            "name": "Department of Geology and Mineral Resources Engineering",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1117,
-            "nr": null,
-            "name": "Department of History and Classical Studies",
-            "address": null,
-            "builtYear": null,
-            "campusId": 73
-        },
-        {
-            "id": 1141,
-            "nr": null,
-            "name": "Department of Human Movement Science",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1107,
-            "nr": null,
-            "name": "Department of Hydraulic and Environmental Engineering",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1144,
-            "nr": null,
-            "name": "Department of Industrial Economics and Technology Management",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1122,
-            "nr": null,
-            "name": "Department of Interdisciplinary Studies of Culture",
-            "address": null,
-            "builtYear": null,
-            "campusId": 73
-        },
-        {
-            "id": 1137,
-            "nr": null,
-            "name": "Department of Laboratory Medicine, Children's and Women's Health",
-            "address": null,
-            "builtYear": null,
-            "campusId": 78
-        },
-        {
-            "id": 1115,
-            "nr": null,
-            "name": "Department of Language and Communication Studies",
-            "address": null,
-            "builtYear": null,
-            "campusId": 73
-        },
-        {
-            "id": 1106,
-            "nr": null,
-            "name": "Department of Marine Technology",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1127,
-            "nr": null,
-            "name": "Department of Materials Science and Engineering",
-            "address": null,
-            "builtYear": null,
-            "campusId": 74
-        },
-        {
-            "id": 1130,
-            "nr": null,
-            "name": "Department of Mathematical Sciences",
-            "address": null,
-            "builtYear": null,
-            "campusId": 77
-        },
-        {
-            "id": 1116,
-            "nr": null,
-            "name": "Department of Modern Foreign Languages",
-            "address": null,
-            "builtYear": null,
-            "campusId": 73
-        },
-        {
-            "id": 1114,
-            "nr": null,
-            "name": "Department of Music",
-            "address": null,
-            "builtYear": null,
-            "campusId": 73
-        },
-        {
-            "id": 1135,
-            "nr": null,
-            "name": "Department of Neuroscience",
-            "address": null,
-            "builtYear": null,
-            "campusId": 78
-        },
-        {
-            "id": 1109,
-            "nr": null,
-            "name": "Department of Petroleum Engineering and Applied Geophysics",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1118,
-            "nr": null,
-            "name": "Department of Philosophy",
-            "address": null,
-            "builtYear": null,
-            "campusId": 73
-        },
-        {
-            "id": 1128,
-            "nr": null,
-            "name": "Department of Physics",
-            "address": null,
-            "builtYear": null,
-            "campusId": 74
-        },
-        {
-            "id": 1113,
-            "nr": null,
-            "name": "Department of Product Design",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1112,
-            "nr": null,
-            "name": "Department of Production and Quality Engineering",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1148,
-            "nr": null,
-            "name": "Department of Psychology",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1136,
-            "nr": null,
-            "name": "Department of Public Health and General Practice",
-            "address": null,
-            "builtYear": null,
-            "campusId": 78
-        },
-        {
-            "id": 1120,
-            "nr": null,
-            "name": "Department of Scandinavian Studies and Comparative Literature",
-            "address": null,
-            "builtYear": null,
-            "campusId": 73
-        },
-        {
-            "id": 1149,
-            "nr": null,
-            "name": "Department of Social Anthropology",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1147,
-            "nr": null,
-            "name": "Department of Social Work and Health Science",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1143,
-            "nr": null,
-            "name": "Department of Sociology and Political Science",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 1104,
-            "nr": null,
-            "name": "Department of Structural Engineering",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 1133,
-            "nr": null,
-            "name": "Department of Telematics",
-            "address": null,
-            "builtYear": null,
-            "campusId": 77
-        },
-        {
-            "id": 1102,
-            "nr": null,
-            "name": "Department of Urban Design and Planning",
-            "address": null,
-            "builtYear": null,
-            "campusId": 71
-        },
-        {
-            "id": 531,
-            "nr": "072",
-            "name": "Dokkhuset",
-            "address": "Dokkparken, Nedre Elvehavn",
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 71,
-            "nr": "040",
-            "name": "Dora",
-            "address": "Maskinistgata 1",
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 1071,
-            "nr": "041",
-            "name": "Dora nybygg",
-            "address": "Maskinistgata 1",
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 7,
-            "nr": "810",
-            "name": "Dragvoll Bygg 1 - 6",
-            "address": "Edvard Bulls veg 1",
-            "builtYear": "1978",
-            "campusId": 8
-        },
-        {
-            "id": 160,
-            "nr": "830",
-            "name": "Dragvoll Bygg 11 - 12",
-            "address": "Edvard Bulls veg 1",
-            "builtYear": "2000",
-            "campusId": 8
-        },
-        {
-            "id": 8,
-            "nr": "820",
-            "name": "Dragvoll Bygg 7 - 10",
-            "address": "Edvard Bulls veg 1",
-            "builtYear": "1993",
-            "campusId": 8
-        },
-        {
-            "id": 411,
-            "nr": "801",
-            "name": "Dragvoll garasje",
-            "address": "Loholt allé 90",
-            "builtYear": "2001",
-            "campusId": 8
-        },
-        {
-            "id": 89,
-            "nr": "841",
-            "name": "Dragvoll gård",
-            "address": "Dragvoll allé 40",
-            "builtYear": "1850",
-            "campusId": 8
-        },
-        {
-            "id": 43,
-            "nr": "309",
-            "name": "Driftssentralen",
-            "address": "Høgskoleringen 8",
-            "builtYear": "1960",
-            "campusId": 3
-        },
-        {
-            "id": 352,
-            "nr": "092b",
-            "name": "Edgar B Schieldrops veg 22D",
-            "address": "Edgar B. Schieldrops veg 22D",
-            "builtYear": "1970",
-            "campusId": 51
-        },
-        {
-            "id": 351,
-            "nr": "092a",
-            "name": "Edgar B Schieldrops veg 6C",
-            "address": "Edgar B. Schieldrops veg 6C",
-            "builtYear": "1970",
-            "campusId": 51
-        },
-        {
-            "id": 118,
-            "nr": "326",
-            "name": "Elektro A",
-            "address": "O. S. Bragstads plass 2",
-            "builtYear": "1961",
-            "campusId": 3
-        },
-        {
-            "id": 119,
-            "nr": "327",
-            "name": "Elektro B",
-            "address": "O. S. Bragstads plass 2",
-            "builtYear": "1959",
-            "campusId": 3
-        },
-        {
-            "id": 120,
-            "nr": "328",
-            "name": "Elektro C",
-            "address": "O. S. Bragstads plass 2",
-            "builtYear": "1960",
-            "campusId": 3
-        },
-        {
-            "id": 121,
-            "nr": "329",
-            "name": "Elektro D+B2",
-            "address": "O. S. Bragstads plass 2",
-            "builtYear": "1971",
-            "campusId": 3
-        },
-        {
-            "id": 691,
-            "nr": "341",
-            "name": "Elektro E/F",
-            "address": "O. S. Bragstads plass 2E",
-            "builtYear": "1986",
-            "campusId": 3
-        },
-        {
-            "id": 134,
-            "nr": "170",
-            "name": "Elvegata 17",
-            "address": "Elvegata 17",
-            "builtYear": "1915",
-            "campusId": 1
-        },
-        {
-            "id": 1231,
-            "nr": null,
-            "name": "Faculty Administration",
-            "address": null,
-            "builtYear": null,
-            "campusId": 78
-        },
-        {
-            "id": 731,
-            "nr": "061",
-            "name": "Fjordgata 1",
-            "address": "Fjordgata 1",
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 596,
-            "nr": "470",
-            "name": "Flyklubben",
-            "address": "S P Andersens vei 13?",
-            "builtYear": null,
-            "campusId": 4
-        },
-        {
-            "id": 751,
-            "nr": "2-330",
-            "name": "Forsyningssenteret",
-            "address": "Prinsesse Kristinas gate 5",
-            "builtYear": "1980",
-            "campusId": 2
-        },
-        {
-            "id": 9,
-            "nr": "325",
-            "name": "Gamle elektro",
-            "address": "O. S. Bragstads plass 2",
-            "builtYear": "1910",
-            "campusId": 3
-        },
-        {
-            "id": 14,
-            "nr": "319",
-            "name": "Gamle fysikk",
-            "address": "Sem Sælands vei 5",
-            "builtYear": "1924",
-            "campusId": 3
-        },
-        {
-            "id": 15,
-            "nr": "323",
-            "name": "Gamle kjemi",
-            "address": "Kolbjørn Hejes vei 4",
-            "builtYear": "1910",
-            "campusId": 3
-        },
-        {
-            "id": 595,
-            "nr": "465",
-            "name": "Garasje",
-            "address": "S P Andersens vei 13?",
-            "builtYear": null,
-            "campusId": 4
-        },
-        {
-            "id": 86,
-            "nr": "840",
-            "name": "Garderobebygg",
-            "address": "Loholt allé 89",
-            "builtYear": "1985",
-            "campusId": 8
-        },
-        {
-            "id": 811,
-            "nr": "2-430",
-            "name": "Gastrosenteret",
-            "address": "Prinsesse Kristinas gate 1",
-            "builtYear": "2009",
-            "campusId": 2
-        },
-        {
-            "id": 270,
-            "nr": "391",
-            "name": "Geelmuydens gate 1",
-            "address": "Geelmuydens gate 1",
-            "builtYear": "1934",
-            "campusId": 51
-        },
-        {
-            "id": 13,
-            "nr": "306",
-            "name": "Geologi",
-            "address": "Høgskoleringen 6",
-            "builtYear": "1960",
-            "campusId": 3
-        },
-        {
-            "id": 19,
-            "nr": "331",
-            "name": "Gløshaugen legesenter",
-            "address": "Richard Birkelands vei 5",
-            "builtYear": "1970",
-            "campusId": 3
-        },
-        {
-            "id": 279,
-            "nr": "394",
-            "name": "Gløshaugveien 12",
-            "address": "Gløshaugveien 12",
-            "builtYear": "1930",
-            "campusId": 51
-        },
-        {
-            "id": 273,
-            "nr": "395",
-            "name": "Gløshaugveien 19",
-            "address": "Gløshaugveien 19",
-            "builtYear": "1935",
-            "campusId": 51
-        },
-        {
-            "id": 591,
-            "nr": "396",
-            "name": "Gløshaugveien 3B",
-            "address": "Gløshaugveien 3B",
-            "builtYear": null,
-            "campusId": 52
-        },
-        {
-            "id": 272,
-            "nr": "393",
-            "name": "Gløshaugveien 5",
-            "address": "Gløshaugveien 5",
-            "builtYear": "1928",
-            "campusId": 51
-        },
-        {
-            "id": 1291,
-            "nr": "079",
-            "name": "Gramåsen",
-            "address": null,
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 717,
-            "nr": "384",
-            "name": "Grensen 12",
-            "address": "Grensen 12",
-            "builtYear": null,
-            "campusId": 53
-        },
-        {
-            "id": 718,
-            "nr": "383",
-            "name": "Grensen 14",
-            "address": "Grensen 14",
-            "builtYear": null,
-            "campusId": 53
-        },
-        {
-            "id": 719,
-            "nr": "382",
-            "name": "Grensen 15",
-            "address": "Grensen 15",
-            "builtYear": null,
-            "campusId": 53
-        },
-        {
-            "id": 713,
-            "nr": "388",
-            "name": "Grensen 6",
-            "address": "Grensen 6",
-            "builtYear": null,
-            "campusId": 53
-        },
-        {
-            "id": 716,
-            "nr": "385",
-            "name": "Grensen 7",
-            "address": "Grensen 7",
-            "builtYear": null,
-            "campusId": 53
-        },
-        {
-            "id": 715,
-            "nr": "386",
-            "name": "Grensen 8",
-            "address": "Grensen 8",
-            "builtYear": null,
-            "campusId": 53
-        },
-        {
-            "id": 714,
-            "nr": "387",
-            "name": "Grensen 9",
-            "address": "Grensen 9",
-            "builtYear": null,
-            "campusId": 53
-        },
-        {
-            "id": 16,
-            "nr": "332",
-            "name": "Grønnbygget",
-            "address": "Richard Birkelands vei 3",
-            "builtYear": "1958",
-            "campusId": 3
-        },
-        {
-            "id": 101,
-            "nr": "130",
-            "name": "Gunnerusbiblioteket",
-            "address": "Kalvskinnsgata 1B",
-            "builtYear": "1975",
-            "campusId": 1
-        },
-        {
-            "id": 75,
-            "nr": "125",
-            "name": "Gunnerushuset",
-            "address": "Erling Skakkes gate 47B",
-            "builtYear": "1866",
-            "campusId": 1
-        },
-        {
-            "id": 951,
-            "nr": "950",
-            "name": "HUNT",
-            "address": "Forskningsvegen 2",
-            "builtYear": null,
-            "campusId": 9
-        },
-        {
-            "id": 88,
-            "nr": "842",
-            "name": "Halsenget",
-            "address": "Estenstadvegen 35",
-            "builtYear": "1900",
-            "campusId": 8
-        },
-        {
-            "id": 271,
-            "nr": "392",
-            "name": "Hans Osnes veg 12",
-            "address": "Hans Osnes veg 12",
-            "builtYear": null,
-            "campusId": 51
-        },
-        {
-            "id": 18,
-            "nr": "641",
-            "name": "Havlaboratoriet",
-            "address": "Professor J. H. L. Vogts veg 1",
-            "builtYear": "1981",
-            "campusId": 6
-        },
-        {
-            "id": 330,
-            "nr": "094a",
-            "name": "Havstadvegen 15A",
-            "address": "Havstadvegen 15A",
-            "builtYear": "1966",
-            "campusId": 51
-        },
-        {
-            "id": 331,
-            "nr": "094b",
-            "name": "Havstadvegen 15D",
-            "address": "Havstadvegen 15D",
-            "builtYear": "1966",
-            "campusId": 51
-        },
-        {
-            "id": 20,
-            "nr": "301",
-            "name": "Hovedbygningen",
-            "address": "Høgskoleringen 1",
-            "builtYear": "1910",
-            "campusId": 3
-        },
-        {
-            "id": 167,
-            "nr": "358",
-            "name": "Høgskoleringen 3",
-            "address": "Høgskoleringen 3",
-            "builtYear": "2002",
-            "campusId": 3
-        },
-        {
-            "id": 711,
-            "nr": "390",
-            "name": "Høgskoleveien 2",
-            "address": "Høgskoleveien 2",
-            "builtYear": null,
-            "campusId": 53
-        },
-        {
-            "id": 712,
-            "nr": "389",
-            "name": "Høgskoleveien 4",
-            "address": "Høgskoleveien 4",
-            "builtYear": null,
-            "campusId": 53
-        },
-        {
-            "id": 44,
-            "nr": "317",
-            "name": "IT-bygget",
-            "address": "Sem Sælands vei 9",
-            "builtYear": "1973",
-            "campusId": 3
-        },
-        {
-            "id": 2,
-            "nr": "318",
-            "name": "IT-bygget, sydfløy",
-            "address": "Sem Sælands vei 7",
-            "builtYear": "1965",
-            "campusId": 3
-        },
-        {
-            "id": 21,
-            "nr": "335",
-            "name": "Idrettsbygget",
-            "address": "Christian Frederiks gate 20",
-            "builtYear": "1966",
-            "campusId": 3
-        },
-        {
-            "id": 145,
-            "nr": "850",
-            "name": "Idrettssenteret",
-            "address": "Loholt allé 81",
-            "builtYear": "1998",
-            "campusId": 8
-        },
-        {
-            "id": 1111,
-            "nr": null,
-            "name": "Industrial Ecology Programme",
-            "address": null,
-            "builtYear": null,
-            "campusId": 72
-        },
-        {
-            "id": 138,
-            "nr": "075",
-            "name": "Industribygget",
-            "address": "Innherredsveien 7",
-            "builtYear": "1946",
-            "campusId": 10
-        },
-        {
-            "id": 64,
-            "nr": "343",
-            "name": "Infohuset",
-            "address": "O. S. Bragstads plass 1",
-            "builtYear": "1898",
-            "campusId": 3
-        },
-        {
-            "id": 1271,
-            "nr": "078",
-            "name": "Jonsvannsveien 82",
-            "address": "Jonsvannsveien 82",
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 154,
-            "nr": "165",
-            "name": "Kalvskinnet garasje",
-            "address": "Erling Skakkes gate 47A",
-            "builtYear": null,
-            "campusId": 1
-        },
-        {
-            "id": 94,
-            "nr": "925",
-            "name": "Kamtjernhytta",
-            "address": null,
-            "builtYear": "1968",
-            "campusId": 9
-        },
-        {
-            "id": 23,
-            "nr": "640",
-            "name": "Kavitasjonslaboratoriet",
-            "address": "Professor J. H. L. Vogts veg 1",
-            "builtYear": "1965",
-            "campusId": 6
-        },
-        {
-            "id": 1192,
-            "nr": null,
-            "name": "Kavli institute/Centre for Neural Computation",
-            "address": null,
-            "builtYear": null,
-            "campusId": 78
-        },
-        {
-            "id": 210,
-            "nr": "354",
-            "name": "Kjelhuset",
-            "address": "Kolbjørn Hejes vei 1",
-            "builtYear": "1951",
-            "campusId": 3
-        },
-        {
-            "id": 24,
-            "nr": "311",
-            "name": "Kjemi 1",
-            "address": "Sem Sælands vei 14",
-            "builtYear": "1954",
-            "campusId": 3
-        },
-        {
-            "id": 25,
-            "nr": "312",
-            "name": "Kjemi 2",
-            "address": "Sem Sælands vei 12",
-            "builtYear": "1955",
-            "campusId": 3
-        },
-        {
-            "id": 26,
-            "nr": "313",
-            "name": "Kjemi 3",
-            "address": "Sem Sælands vei 8",
-            "builtYear": "1967",
-            "campusId": 3
-        },
-        {
-            "id": 27,
-            "nr": "314",
-            "name": "Kjemi 4",
-            "address": "Sem Sælands vei 6",
-            "builtYear": "1965",
-            "campusId": 3
-        },
-        {
-            "id": 28,
-            "nr": "315",
-            "name": "Kjemi 5",
-            "address": "Sem Sælands vei 4",
-            "builtYear": "1957",
-            "campusId": 3
-        },
-        {
-            "id": 30,
-            "nr": "310",
-            "name": "Kjemi sydfløy",
-            "address": "Sem Sælands vei 10",
-            "builtYear": "1967",
-            "campusId": 3
-        },
-        {
-            "id": 29,
-            "nr": "316",
-            "name": "Kjemihallen",
-            "address": "Sem Sælands vei 2",
-            "builtYear": "1959",
-            "campusId": 3
-        },
-        {
-            "id": 171,
-            "nr": "062",
-            "name": "Kjøpmannsgata 42",
-            "address": "Kjøpmannsgata 42",
-            "builtYear": "1904",
-            "campusId": 10
-        },
-        {
-            "id": 278,
-            "nr": "091",
-            "name": "Klostergata 18",
-            "address": "Klostergata 18",
-            "builtYear": "1900",
-            "campusId": 51
-        },
-        {
-            "id": 169,
-            "nr": "240",
-            "name": "Klostergata 46",
-            "address": "Klostergata 46",
-            "builtYear": "1930",
-            "campusId": 2
-        },
-        {
-            "id": 592,
-            "nr": "491",
-            "name": "Klæbuveien 146",
-            "address": "Klæbuveien 146",
-            "builtYear": null,
-            "campusId": 51
-        },
-        {
-            "id": 593,
-            "nr": "492",
-            "name": "Klæbuveien 148",
-            "address": "Klæbuveien 148",
-            "builtYear": null,
-            "campusId": 51
-        },
-        {
-            "id": 93,
-            "nr": "920",
-            "name": "Kongsvoll",
-            "address": null,
-            "builtYear": "1938",
-            "campusId": 9
-        },
-        {
-            "id": 136,
-            "nr": "065",
-            "name": "Krambugt 12/14",
-            "address": "Krambugata 12",
-            "builtYear": "1908",
-            "campusId": 10
-        },
-        {
-            "id": 1211,
-            "nr": "2-420",
-            "name": "Kunnskapssenteret",
-            "address": null,
-            "builtYear": null,
-            "campusId": 2
-        },
-        {
-            "id": 471,
-            "nr": "2-240",
-            "name": "Kvinne-barnsenteret",
-            "address": "Olav Kyrres gate 11",
-            "builtYear": "2005",
-            "campusId": 2
-        },
-        {
-            "id": 451,
-            "nr": "2-230",
-            "name": "Laboratoriesenteret",
-            "address": "Erling Skjalgsons gate 1",
-            "builtYear": "2005",
-            "campusId": 2
-        },
-        {
-            "id": 79,
-            "nr": "435",
-            "name": "Lager Driftsavdelingen",
-            "address": "S. P. Andersens veg 21",
-            "builtYear": "1986",
-            "campusId": 4
-        },
-        {
-            "id": 38,
-            "nr": "448",
-            "name": "Lerchendal gård, Bårdstubygn.",
-            "address": "Strindvegen 2",
-            "builtYear": null,
-            "campusId": 4
-        },
-        {
-            "id": 39,
-            "nr": "447",
-            "name": "Lerchendal gård, Hovedbygning",
-            "address": "Strindvegen 2",
-            "builtYear": "1762",
-            "campusId": 4
-        },
-        {
-            "id": 159,
-            "nr": "449",
-            "name": "Lerchendal gård, stabbur",
-            "address": "Strindvegen 2",
-            "builtYear": "Ca. 1800",
-            "campusId": 4
-        },
-        {
-            "id": 177,
-            "nr": "940",
-            "name": "Longyearbyen",
-            "address": "Vei 401-36",
-            "builtYear": null,
-            "campusId": 9
-        },
-        {
-            "id": 611,
-            "nr": "350",
-            "name": "Lucas",
-            "address": "Christian Frederiks gate 2E",
-            "builtYear": null,
-            "campusId": 52
-        },
-        {
-            "id": 130,
-            "nr": "825",
-            "name": "Låven",
-            "address": "Dragvoll allé 40",
-            "builtYear": "1996",
-            "campusId": 8
-        },
-        {
-            "id": 179,
-            "nr": "214",
-            "name": "MR-senteret",
-            "address": "Olav Kyrres gate 17",
-            "builtYear": "1986",
-            "campusId": 2
-        },
-        {
-            "id": 96,
-            "nr": "220",
-            "name": "MTFS, del 1",
-            "address": "Olav Kyrres gate 9",
-            "builtYear": "1991",
-            "campusId": 2
-        },
-        {
-            "id": 161,
-            "nr": "225",
-            "name": "MTFS, del 2",
-            "address": "Edvard Griegs gate 10",
-            "builtYear": "1997",
-            "campusId": 2
-        },
-        {
-            "id": 155,
-            "nr": "176",
-            "name": "Magasinbygning",
-            "address": "Erling Skakkes gate 57 / 59",
-            "builtYear": "1826",
-            "campusId": 1
-        },
-        {
-            "id": 42,
-            "nr": "639",
-            "name": "Marinteknisk senter",
-            "address": "Otto Nielsens veg 10",
-            "builtYear": "1977",
-            "campusId": 6
-        },
-        {
-            "id": 41,
-            "nr": "308",
-            "name": "Materialteknisk",
-            "address": "Richard Birkelands vei 1",
-            "builtYear": "1958",
-            "campusId": 3
-        },
-        {
-            "id": 40,
-            "nr": "304",
-            "name": "Metallurgi",
-            "address": "Alfred Getz' vei 2",
-            "builtYear": "1951",
-            "campusId": 3
-        },
-        {
-            "id": 150,
-            "nr": "077",
-            "name": "Moholt",
-            "address": "Bregnevegen 55",
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 48,
-            "nr": "437",
-            "name": "NHL paviljong",
-            "address": "Klæbuveien 147",
-            "builtYear": "1981",
-            "campusId": 52
-        },
-        {
-            "id": 1011,
-            "nr": "370",
-            "name": "NINA-huset",
-            "address": "Høgskoleringen 9",
-            "builtYear": null,
-            "campusId": 3
-        },
-        {
-            "id": 431,
-            "nr": "2-130",
-            "name": "Nevrosenteret",
-            "address": "Olav Kyrres gate 5",
-            "builtYear": "2005",
-            "campusId": 2
-        },
-        {
-            "id": 47,
-            "nr": "436",
-            "name": "Norsk hydroteknisk laboratorium",
-            "address": "Klæbuveien 153",
-            "builtYear": "1958",
-            "campusId": 4
-        },
-        {
-            "id": 1151,
-            "nr": null,
-            "name": "Norwegian Centre for Child Research (NOSEB)",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 126,
-            "nr": "060",
-            "name": "Olavskvartalet",
-            "address": "Kjøpmannsgata 48",
-            "builtYear": "1989",
-            "campusId": 10
-        },
-        {
-            "id": 49,
-            "nr": "305",
-            "name": "Oppredning/gruvedrift",
-            "address": "Sem Sælands vei 1",
-            "builtYear": "1953",
-            "campusId": 3
-        },
-        {
-            "id": 144,
-            "nr": "365",
-            "name": "PFI",
-            "address": "Høgskoleringen 6B",
-            "builtYear": "1998",
-            "campusId": 3
-        },
-        {
-            "id": 491,
-            "nr": "443",
-            "name": "PTS Paviljong",
-            "address": "S. P. Andersens veg 15",
-            "builtYear": "2005",
-            "campusId": 4
-        },
-        {
-            "id": 50,
-            "nr": "442",
-            "name": "PTS, hallbygg",
-            "address": "S. P. Andersens veg 15",
-            "builtYear": "1984",
-            "campusId": 4
-        },
-        {
-            "id": 187,
-            "nr": "212",
-            "name": "Parkbygget",
-            "address": "Prinsesse Kristinas gate 5",
-            "builtYear": "1980",
-            "campusId": 2
-        },
-        {
-            "id": 98,
-            "nr": "821",
-            "name": "Paviljong A",
-            "address": "Loholt allé 85",
-            "builtYear": "1993",
-            "campusId": 8
-        },
-        {
-            "id": 99,
-            "nr": "822",
-            "name": "Paviljong B",
-            "address": "Loholt allé 85",
-            "builtYear": "1993",
-            "campusId": 8
-        },
-        {
-            "id": 100,
-            "nr": "823",
-            "name": "Paviljong C",
-            "address": "Loholt allé 87",
-            "builtYear": "1993",
-            "campusId": 8
-        },
-        {
-            "id": 791,
-            "nr": "845",
-            "name": "Paviljong fotballbane",
-            "address": "Loholt allé 91",
-            "builtYear": null,
-            "campusId": 8
-        },
-        {
-            "id": 51,
-            "nr": "444",
-            "name": "Petroleumsteknisk senter",
-            "address": "S. P. Andersens veg 15",
-            "builtYear": "1984",
-            "campusId": 4
-        },
-        {
-            "id": 1051,
-            "nr": "441",
-            "name": "Petroleumsteknisk senter Gasslager",
-            "address": "S. P. Andersens vei 15",
-            "builtYear": null,
-            "campusId": 4
-        },
-        {
-            "id": 85,
-            "nr": "824",
-            "name": "Plantebiosenteret",
-            "address": "Dragvoll allé 38",
-            "builtYear": "1995",
-            "campusId": 8
-        },
-        {
-            "id": 132,
-            "nr": "356",
-            "name": "Produktdesign",
-            "address": "Kolbjørn Hejes vei 2B",
-            "builtYear": "1996",
-            "campusId": 3
-        },
-        {
-            "id": 1146,
-            "nr": null,
-            "name": "Programme for Teacher Education",
-            "address": null,
-            "builtYear": null,
-            "campusId": 80
-        },
-        {
-            "id": 129,
-            "nr": "360",
-            "name": "Realfagbygget",
-            "address": "Høgskoleringen 5",
-            "builtYear": "2000",
-            "campusId": 3
-        },
-        {
-            "id": 77,
-            "nr": "085",
-            "name": "Ringve",
-            "address": "Lade allé 58",
-            "builtYear": "1973",
-            "campusId": 10
-        },
-        {
-            "id": 671,
-            "nr": "086",
-            "name": "Ringve, garasje",
-            "address": "Lade allé 58",
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 597,
-            "nr": "494",
-            "name": "S P Andersens vei 17",
-            "address": "S P Andersens vei 17",
-            "builtYear": null,
-            "campusId": 51
-        },
-        {
-            "id": 11,
-            "nr": "320",
-            "name": "SINTEF Energi",
-            "address": "Sem Sælands vei 11",
-            "builtYear": "1960",
-            "campusId": 3
-        },
-        {
-            "id": 931,
-            "nr": "849",
-            "name": "Samfunnshuset",
-            "address": "Dragvoll allé 38B",
-            "builtYear": "2010",
-            "campusId": 8
-        },
-        {
-            "id": 74,
-            "nr": "120",
-            "name": "Schøninghuset",
-            "address": "Erling Skakkes gate 47A",
-            "builtYear": "1950",
-            "campusId": 1
-        },
-        {
-            "id": 1171,
-            "nr": null,
-            "name": "Section of External services",
-            "address": null,
-            "builtYear": null,
-            "campusId": 91
-        },
-        {
-            "id": 1172,
-            "nr": null,
-            "name": "Section of Natural History",
-            "address": null,
-            "builtYear": null,
-            "campusId": 91
-        },
-        {
-            "id": 53,
-            "nr": "321",
-            "name": "Sentralbygg 1",
-            "address": "Alfred Getz' vei 3",
-            "builtYear": "1961",
-            "campusId": 3
-        },
-        {
-            "id": 54,
-            "nr": "322",
-            "name": "Sentralbygg 2",
-            "address": "Alfred Getz' vei 1",
-            "builtYear": "1968",
-            "campusId": 3
-        },
-        {
-            "id": 55,
-            "nr": "352",
-            "name": "Setra",
-            "address": "O. S. Bragstads plass 2",
-            "builtYear": "1986",
-            "campusId": 52
-        },
-        {
-            "id": 142,
-            "nr": "180",
-            "name": "Skansevakta",
-            "address": "Kongens gate 97",
-            "builtYear": "1837",
-            "campusId": 1
-        },
-        {
-            "id": 57,
-            "nr": "334",
-            "name": "Skiboli",
-            "address": "Alfred Getz' vei 6",
-            "builtYear": "1985",
-            "campusId": 3
-        },
-        {
-            "id": 58,
-            "nr": "638",
-            "name": "Skipsmodelltanken",
-            "address": "Paul Fjermstads veg 59",
-            "builtYear": "1939",
-            "campusId": 6
-        },
-        {
-            "id": 92,
-            "nr": "915",
-            "name": "Sletvik",
-            "address": null,
-            "builtYear": "1942",
-            "campusId": 9
-        },
-        {
-            "id": 127,
-            "nr": "160",
-            "name": "Snekkerverksted",
-            "address": "Erling Skakkes gate 47A",
-            "builtYear": "1950",
-            "campusId": 1
-        },
-        {
-            "id": 91,
-            "nr": "910",
-            "name": "Snåsavatn",
-            "address": "Solnesvegen 85",
-            "builtYear": "1967",
-            "campusId": 9
-        },
-        {
-            "id": 350,
-            "nr": "092d",
-            "name": "Sollia 29",
-            "address": "Nordre Risvolltun 10",
-            "builtYear": "1970",
-            "campusId": 51
-        },
-        {
-            "id": 156,
-            "nr": "848",
-            "name": "Stabbur (2)",
-            "address": "Dragvoll allé 40",
-            "builtYear": null,
-            "campusId": 8
-        },
-        {
-            "id": 891,
-            "nr": "010",
-            "name": "Statsarkivet",
-            "address": "Høgskoleveien 12",
-            "builtYear": null,
-            "campusId": 10
-        },
-        {
-            "id": 311,
-            "nr": "895",
-            "name": "Stavsvegen 14",
-            "address": "Stavsvegen 14",
-            "builtYear": null,
-            "campusId": 51
-        },
-        {
-            "id": 310,
-            "nr": "894",
-            "name": "Stavsvegen 22",
-            "address": "Stavsvegen 22",
-            "builtYear": null,
-            "campusId": 51
-        },
-        {
-            "id": 280,
-            "nr": "891",
-            "name": "Stavsvegen 24",
-            "address": "Stavsvegen 24",
-            "builtYear": "1964",
-            "campusId": 51
-        },
-        {
-            "id": 275,
-            "nr": "892",
-            "name": "Stavsvegen 30A",
-            "address": "Stavsvegen 30A",
-            "builtYear": null,
-            "campusId": 51
-        },
-        {
-            "id": 276,
-            "nr": "893",
-            "name": "Stokstua",
-            "address": "Jonsvannsveien 343",
-            "builtYear": "1949",
-            "campusId": 52
-        },
-        {
-            "id": 60,
-            "nr": "303",
-            "name": "Strømningsteknisk",
-            "address": "Kolbjørn Hejes vei 2",
-            "builtYear": "1965",
-            "campusId": 3
-        },
-        {
-            "id": 76,
-            "nr": "135",
-            "name": "Suhmhuset",
-            "address": "Elvegata 6",
-            "builtYear": "1880",
-            "campusId": 1
-        },
-        {
-            "id": 277,
-            "nr": "191",
-            "name": "Sverres gate 8",
-            "address": "Sverres gate 8",
-            "builtYear": "1858",
-            "campusId": 51
-        },
-        {
-            "id": 95,
-            "nr": "930",
-            "name": "Svinvik",
-            "address": null,
-            "builtYear": "1942",
-            "campusId": 52
-        },
-        {
-            "id": 190,
-            "nr": "260",
-            "name": "Teknobyen",
-            "address": "Abels gate 5",
-            "builtYear": null,
-            "campusId": 2
-        },
-        {
-            "id": 133,
-            "nr": "935",
-            "name": "Titran",
-            "address": null,
-            "builtYear": "1950",
-            "campusId": 9
-        },
-        {
-            "id": 147,
-            "nr": "450",
-            "name": "Transportsentralen",
-            "address": "S. P. Andersens veg 13",
-            "builtYear": "2001",
-            "campusId": 4
-        },
-        {
-            "id": 62,
-            "nr": "445",
-            "name": "Turbinlaboratoriet",
-            "address": "S. P. Andersens veg 7",
-            "builtYear": "1984",
-            "campusId": 4
-        },
-        {
-            "id": 148,
-            "nr": "357",
-            "name": "VM-paviljongen",
-            "address": "Høgskoleringen 4",
-            "builtYear": "1996",
-            "campusId": 3
-        },
-        {
-            "id": 162,
-            "nr": "460",
-            "name": "Valgrinda 2000",
-            "address": "S. P. Andersens veg 5",
-            "builtYear": "2000",
-            "campusId": 4
-        },
-        {
-            "id": 65,
-            "nr": "324",
-            "name": "Vannkraftlaboratoriet",
-            "address": "Alfred Getz' vei 4",
-            "builtYear": "1916",
-            "campusId": 3
-        },
-        {
-            "id": 175,
-            "nr": "805",
-            "name": "Varmesentral",
-            "address": "Loholt allé 90",
-            "builtYear": "1978",
-            "campusId": 8
-        },
-        {
-            "id": 66,
-            "nr": "302",
-            "name": "Varmeteknisk",
-            "address": "Kolbjørn Hejes vei 1",
-            "builtYear": "1962",
-            "campusId": 3
-        },
-        {
-            "id": 1031,
-            "nr": "190",
-            "name": "Vaskeribygget",
-            "address": "Kongens gate 93",
-            "builtYear": null,
-            "campusId": 1
-        },
-        {
-            "id": 45,
-            "nr": "446",
-            "name": "Vassbygget",
-            "address": "S. P. Andersens veg 5",
-            "builtYear": "1984",
-            "campusId": 4
-        },
-        {
-            "id": 67,
-            "nr": "307",
-            "name": "Verkstedteknisk",
-            "address": "Richard Birkelands vei 2",
-            "builtYear": "1966",
-            "campusId": 3
-        },
-        {
-            "id": 61,
-            "nr": "330",
-            "name": "Vestre Gløshaugen",
-            "address": "O. S. Bragstads plass 3",
-            "builtYear": "1850",
-            "campusId": 3
-        },
-        {
-            "id": 181,
-            "nr": "434",
-            "name": "Ødegården",
-            "address": "S. P. Andersens veg ?",
-            "builtYear": "1977",
-            "campusId": 4
-        },
-        {
-            "id": 1,
-            "nr": "342",
-            "name": "Østre Gløshaugen",
-            "address": "Høgskoleringen 1B",
-            "builtYear": "1872",
-            "campusId": 3
-        },
-        {
-            "id": 90,
-            "nr": "846",
-            "name": "Øvre Stokkan",
-            "address": "Stokkanhaugen 181",
-            "builtYear": null,
-            "campusId": 8
-        },
-        {
-            "id": 571,
-            "nr": "280",
-            "name": "Øya helsehus",
-            "address": "Mauritz Hansens gate 2",
-            "builtYear": "2008",
-            "campusId": 2
-        },
-        {
-            "id": 771,
-            "nr": "281",
-            "name": "Øya helsehus - garasjekjeller",
-            "address": "Mauritz Hansens gate 2",
-            "builtYear": null,
-            "campusId": 2
-        }
-    ],
-    "cache": {
-        "updated": "2013-11-30T16:50:22+01:00",
-        "expires": "2013-12-07T16:50:22+01:00"
+[
+    {
+        "id": 139,
+        "nr": "175",
+        "name": "Det ensomme fengsel",
+        "address": "Erling Skakkes gate 57 / 59",
+        "builtYear": "1856",
+        "campusId": 1
+    },
+    {
+        "id": 651,
+        "nr": "2-320",
+        "name": "1902-bygget",
+        "address": "-",
+        "builtYear": "1902",
+        "campusId": 2
+    },
+    {
+        "id": 1191,
+        "nr": null,
+        "name": "AMOS - Centre for Autonomous Marine Operations and Systems ",
+        "address": null,
+        "builtYear": null,
+        "campusId": 77
+    },
+    {
+        "id": 871,
+        "nr": "2-340",
+        "name": "Akutt/hjerte/lungesenteret",
+        "address": "Prinsesse Kristinas gate 3",
+        "builtYear": "2010",
+        "campusId": 2
+    },
+    {
+        "id": 332,
+        "nr": "093b",
+        "name": "Alexander Holsts veg 3",
+        "address": "Alexander Holsts veg 3",
+        "builtYear": "1970",
+        "campusId": 51
+    },
+    {
+        "id": 370,
+        "nr": "092c",
+        "name": "Arne Fjellbus veg 6D",
+        "address": "Arne Fjellbus veg 6D",
+        "builtYear": "1970",
+        "campusId": 51
+    },
+    {
+        "id": 3,
+        "nr": "333",
+        "name": "Berg",
+        "address": "Alfred Getz' vei 2",
+        "builtYear": "1981",
+        "campusId": 3
+    },
+    {
+        "id": 851,
+        "nr": "2-310",
+        "name": "Bevegelsessenteret",
+        "address": "Olav Kyrres gate 13",
+        "builtYear": "2009",
+        "campusId": 2
+    },
+    {
+        "id": 73,
+        "nr": "080",
+        "name": "Biologisk stasjon",
+        "address": "Bynesveien 46",
+        "builtYear": "1986",
+        "campusId": 10
+    },
+    {
+        "id": 511,
+        "nr": "025",
+        "name": "Brattørkaia 17B",
+        "address": "Brattørkaia 17B",
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 333,
+        "nr": "093a",
+        "name": "Brundalen 27",
+        "address": "Brundalen 27",
+        "builtYear": "1970",
+        "campusId": 51
+    },
+    {
+        "id": 334,
+        "nr": "093c",
+        "name": "Brundalsgrenda 21",
+        "address": "Brundalsgrenda 21",
+        "builtYear": "1970",
+        "campusId": 51
+    },
+    {
+        "id": 335,
+        "nr": "093d",
+        "name": "Brundalsgrenda 26",
+        "address": "Brundalsgrenda 26",
+        "builtYear": "1970",
+        "campusId": 51
+    },
+    {
+        "id": 911,
+        "nr": "847",
+        "name": "Byggelederbrakke",
+        "address": "Edvard Bulls vei 1",
+        "builtYear": "1978",
+        "campusId": 52
+    },
+    {
+        "id": 4,
+        "nr": "337",
+        "name": "Byggteknisk",
+        "address": "Høgskoleringen 7",
+        "builtYear": "1975",
+        "campusId": 3
+    },
+    {
+        "id": 173,
+        "nr": "081",
+        "name": "Bynesveien 46B",
+        "address": "Bynesveien 46B",
+        "builtYear": "1956",
+        "campusId": 10
+    },
+    {
+        "id": 1193,
+        "nr": null,
+        "name": "CEMIR - Centre of Molecular Inflammation Research ",
+        "address": null,
+        "builtYear": null,
+        "campusId": 78
+    },
+    {
+        "id": 1194,
+        "nr": null,
+        "name": "Centre for Dynamics of Biological Diversity",
+        "address": null,
+        "builtYear": null,
+        "campusId": 74
+    },
+    {
+        "id": 1150,
+        "nr": null,
+        "name": "Department of Adult Learning and Counselling",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1121,
+        "nr": null,
+        "name": "Department of Archaeology and Religious Studies",
+        "address": null,
+        "builtYear": null,
+        "campusId": 73
+    },
+    {
+        "id": 1100,
+        "nr": null,
+        "name": "Department of Architectural Design and Management",
+        "address": null,
+        "builtYear": null,
+        "campusId": 71
+    },
+    {
+        "id": 1099,
+        "nr": null,
+        "name": "Department of Architectural Design, Form and Colour Studies",
+        "address": null,
+        "builtYear": null,
+        "campusId": 71
+    },
+    {
+        "id": 1101,
+        "nr": null,
+        "name": "Department of Architectural Design, History and Technology ",
+        "address": null,
+        "builtYear": null,
+        "campusId": 71
+    },
+    {
+        "id": 1119,
+        "nr": null,
+        "name": "Department of Art and Media Studies",
+        "address": null,
+        "builtYear": null,
+        "campusId": 73
+    },
+    {
+        "id": 1124,
+        "nr": null,
+        "name": "Department of Biology",
+        "address": null,
+        "builtYear": null,
+        "campusId": 74
+    },
+    {
+        "id": 1123,
+        "nr": null,
+        "name": "Department of Biotechnology",
+        "address": null,
+        "builtYear": null,
+        "campusId": 74
+    },
+    {
+        "id": 1139,
+        "nr": null,
+        "name": "Department of Cancer Research and Molecular Medicine",
+        "address": null,
+        "builtYear": null,
+        "campusId": 78
+    },
+    {
+        "id": 1126,
+        "nr": null,
+        "name": "Department of Chemical Engineering",
+        "address": null,
+        "builtYear": null,
+        "campusId": 74
+    },
+    {
+        "id": 1125,
+        "nr": null,
+        "name": "Department of Chemistry ",
+        "address": null,
+        "builtYear": null,
+        "campusId": 74
+    },
+    {
+        "id": 1138,
+        "nr": null,
+        "name": "Department of Circulation and Medical Imaging",
+        "address": null,
+        "builtYear": null,
+        "campusId": 78
+    },
+    {
+        "id": 1103,
+        "nr": null,
+        "name": "Department of Civil and Transport Engineering",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1129,
+        "nr": null,
+        "name": "Department of Computer and Information Science",
+        "address": null,
+        "builtYear": null,
+        "campusId": 77
+    },
+    {
+        "id": 1142,
+        "nr": null,
+        "name": "Department of Economics",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1145,
+        "nr": null,
+        "name": "Department of Education",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1131,
+        "nr": null,
+        "name": "Department of Electric Power Engineering",
+        "address": null,
+        "builtYear": null,
+        "campusId": 77
+    },
+    {
+        "id": 1134,
+        "nr": null,
+        "name": "Department of Electronics and Telecommunications",
+        "address": null,
+        "builtYear": null,
+        "campusId": 77
+    },
+    {
+        "id": 1105,
+        "nr": null,
+        "name": "Department of Energy and Process Engineering",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1132,
+        "nr": null,
+        "name": "Department of Engineering Cybernetics",
+        "address": null,
+        "builtYear": null,
+        "campusId": 77
+    },
+    {
+        "id": 1110,
+        "nr": null,
+        "name": "Department of Engineering Design and Materials",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1098,
+        "nr": null,
+        "name": "Department of Fine Art - The Trondheim Academy of Fine Art",
+        "address": null,
+        "builtYear": null,
+        "campusId": 71
+    },
+    {
+        "id": 1140,
+        "nr": null,
+        "name": "Department of Geography",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1108,
+        "nr": null,
+        "name": "Department of Geology and Mineral Resources Engineering",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1117,
+        "nr": null,
+        "name": "Department of History and Classical Studies",
+        "address": null,
+        "builtYear": null,
+        "campusId": 73
+    },
+    {
+        "id": 1141,
+        "nr": null,
+        "name": "Department of Human Movement Science",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1107,
+        "nr": null,
+        "name": "Department of Hydraulic and Environmental Engineering",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1144,
+        "nr": null,
+        "name": "Department of Industrial Economics and Technology Management",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1122,
+        "nr": null,
+        "name": "Department of Interdisciplinary Studies of Culture",
+        "address": null,
+        "builtYear": null,
+        "campusId": 73
+    },
+    {
+        "id": 1137,
+        "nr": null,
+        "name": "Department of Laboratory Medicine, Children's and Women's Health",
+        "address": null,
+        "builtYear": null,
+        "campusId": 78
+    },
+    {
+        "id": 1115,
+        "nr": null,
+        "name": "Department of Language and Communication Studies",
+        "address": null,
+        "builtYear": null,
+        "campusId": 73
+    },
+    {
+        "id": 1106,
+        "nr": null,
+        "name": "Department of Marine Technology",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1127,
+        "nr": null,
+        "name": "Department of Materials Science and Engineering",
+        "address": null,
+        "builtYear": null,
+        "campusId": 74
+    },
+    {
+        "id": 1130,
+        "nr": null,
+        "name": "Department of Mathematical Sciences",
+        "address": null,
+        "builtYear": null,
+        "campusId": 77
+    },
+    {
+        "id": 1116,
+        "nr": null,
+        "name": "Department of Modern Foreign Languages",
+        "address": null,
+        "builtYear": null,
+        "campusId": 73
+    },
+    {
+        "id": 1114,
+        "nr": null,
+        "name": "Department of Music",
+        "address": null,
+        "builtYear": null,
+        "campusId": 73
+    },
+    {
+        "id": 1135,
+        "nr": null,
+        "name": "Department of Neuroscience",
+        "address": null,
+        "builtYear": null,
+        "campusId": 78
+    },
+    {
+        "id": 1109,
+        "nr": null,
+        "name": "Department of Petroleum Engineering and Applied Geophysics",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1118,
+        "nr": null,
+        "name": "Department of Philosophy",
+        "address": null,
+        "builtYear": null,
+        "campusId": 73
+    },
+    {
+        "id": 1128,
+        "nr": null,
+        "name": "Department of Physics",
+        "address": null,
+        "builtYear": null,
+        "campusId": 74
+    },
+    {
+        "id": 1113,
+        "nr": null,
+        "name": "Department of Product Design",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1112,
+        "nr": null,
+        "name": "Department of Production and Quality Engineering",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1148,
+        "nr": null,
+        "name": "Department of Psychology",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1136,
+        "nr": null,
+        "name": "Department of Public Health and General Practice",
+        "address": null,
+        "builtYear": null,
+        "campusId": 78
+    },
+    {
+        "id": 1120,
+        "nr": null,
+        "name": "Department of Scandinavian Studies and Comparative Literature",
+        "address": null,
+        "builtYear": null,
+        "campusId": 73
+    },
+    {
+        "id": 1149,
+        "nr": null,
+        "name": "Department of Social Anthropology",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1147,
+        "nr": null,
+        "name": "Department of Social Work and Health Science",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1143,
+        "nr": null,
+        "name": "Department of Sociology and Political Science",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 1104,
+        "nr": null,
+        "name": "Department of Structural Engineering",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 1133,
+        "nr": null,
+        "name": "Department of Telematics",
+        "address": null,
+        "builtYear": null,
+        "campusId": 77
+    },
+    {
+        "id": 1102,
+        "nr": null,
+        "name": "Department of Urban Design and Planning",
+        "address": null,
+        "builtYear": null,
+        "campusId": 71
+    },
+    {
+        "id": 531,
+        "nr": "072",
+        "name": "Dokkhuset",
+        "address": "Dokkparken, Nedre Elvehavn",
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 71,
+        "nr": "040",
+        "name": "Dora",
+        "address": "Maskinistgata 1",
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 1071,
+        "nr": "041",
+        "name": "Dora nybygg",
+        "address": "Maskinistgata 1",
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 7,
+        "nr": "810",
+        "name": "Dragvoll Bygg 1 - 6",
+        "address": "Edvard Bulls veg 1",
+        "builtYear": "1978",
+        "campusId": 8
+    },
+    {
+        "id": 160,
+        "nr": "830",
+        "name": "Dragvoll Bygg 11 - 12",
+        "address": "Edvard Bulls veg 1",
+        "builtYear": "2000",
+        "campusId": 8
+    },
+    {
+        "id": 8,
+        "nr": "820",
+        "name": "Dragvoll Bygg 7 - 10",
+        "address": "Edvard Bulls veg 1",
+        "builtYear": "1993",
+        "campusId": 8
+    },
+    {
+        "id": 411,
+        "nr": "801",
+        "name": "Dragvoll garasje",
+        "address": "Loholt allé 90",
+        "builtYear": "2001",
+        "campusId": 8
+    },
+    {
+        "id": 89,
+        "nr": "841",
+        "name": "Dragvoll gård",
+        "address": "Dragvoll allé 40",
+        "builtYear": "1850",
+        "campusId": 8
+    },
+    {
+        "id": 43,
+        "nr": "309",
+        "name": "Driftssentralen",
+        "address": "Høgskoleringen 8",
+        "builtYear": "1960",
+        "campusId": 3
+    },
+    {
+        "id": 352,
+        "nr": "092b",
+        "name": "Edgar B Schieldrops veg 22D",
+        "address": "Edgar B. Schieldrops veg 22D",
+        "builtYear": "1970",
+        "campusId": 51
+    },
+    {
+        "id": 351,
+        "nr": "092a",
+        "name": "Edgar B Schieldrops veg 6C",
+        "address": "Edgar B. Schieldrops veg 6C",
+        "builtYear": "1970",
+        "campusId": 51
+    },
+    {
+        "id": 118,
+        "nr": "326",
+        "name": "Elektro A",
+        "address": "O. S. Bragstads plass 2",
+        "builtYear": "1961",
+        "campusId": 3
+    },
+    {
+        "id": 119,
+        "nr": "327",
+        "name": "Elektro B",
+        "address": "O. S. Bragstads plass 2",
+        "builtYear": "1959",
+        "campusId": 3
+    },
+    {
+        "id": 120,
+        "nr": "328",
+        "name": "Elektro C",
+        "address": "O. S. Bragstads plass 2",
+        "builtYear": "1960",
+        "campusId": 3
+    },
+    {
+        "id": 121,
+        "nr": "329",
+        "name": "Elektro D+B2",
+        "address": "O. S. Bragstads plass 2",
+        "builtYear": "1971",
+        "campusId": 3
+    },
+    {
+        "id": 691,
+        "nr": "341",
+        "name": "Elektro E/F",
+        "address": "O. S. Bragstads plass 2E",
+        "builtYear": "1986",
+        "campusId": 3
+    },
+    {
+        "id": 134,
+        "nr": "170",
+        "name": "Elvegata 17",
+        "address": "Elvegata 17",
+        "builtYear": "1915",
+        "campusId": 1
+    },
+    {
+        "id": 1231,
+        "nr": null,
+        "name": "Faculty Administration",
+        "address": null,
+        "builtYear": null,
+        "campusId": 78
+    },
+    {
+        "id": 731,
+        "nr": "061",
+        "name": "Fjordgata 1",
+        "address": "Fjordgata 1",
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 596,
+        "nr": "470",
+        "name": "Flyklubben",
+        "address": "S P Andersens vei 13?",
+        "builtYear": null,
+        "campusId": 4
+    },
+    {
+        "id": 751,
+        "nr": "2-330",
+        "name": "Forsyningssenteret",
+        "address": "Prinsesse Kristinas gate 5",
+        "builtYear": "1980",
+        "campusId": 2
+    },
+    {
+        "id": 9,
+        "nr": "325",
+        "name": "Gamle elektro",
+        "address": "O. S. Bragstads plass 2",
+        "builtYear": "1910",
+        "campusId": 3
+    },
+    {
+        "id": 14,
+        "nr": "319",
+        "name": "Gamle fysikk",
+        "address": "Sem Sælands vei 5",
+        "builtYear": "1924",
+        "campusId": 3
+    },
+    {
+        "id": 15,
+        "nr": "323",
+        "name": "Gamle kjemi",
+        "address": "Kolbjørn Hejes vei 4",
+        "builtYear": "1910",
+        "campusId": 3
+    },
+    {
+        "id": 595,
+        "nr": "465",
+        "name": "Garasje",
+        "address": "S P Andersens vei 13?",
+        "builtYear": null,
+        "campusId": 4
+    },
+    {
+        "id": 86,
+        "nr": "840",
+        "name": "Garderobebygg",
+        "address": "Loholt allé 89",
+        "builtYear": "1985",
+        "campusId": 8
+    },
+    {
+        "id": 811,
+        "nr": "2-430",
+        "name": "Gastrosenteret",
+        "address": "Prinsesse Kristinas gate 1",
+        "builtYear": "2009",
+        "campusId": 2
+    },
+    {
+        "id": 270,
+        "nr": "391",
+        "name": "Geelmuydens gate 1",
+        "address": "Geelmuydens gate 1",
+        "builtYear": "1934",
+        "campusId": 51
+    },
+    {
+        "id": 13,
+        "nr": "306",
+        "name": "Geologi",
+        "address": "Høgskoleringen 6",
+        "builtYear": "1960",
+        "campusId": 3
+    },
+    {
+        "id": 19,
+        "nr": "331",
+        "name": "Gløshaugen legesenter",
+        "address": "Richard Birkelands vei 5",
+        "builtYear": "1970",
+        "campusId": 3
+    },
+    {
+        "id": 279,
+        "nr": "394",
+        "name": "Gløshaugveien 12",
+        "address": "Gløshaugveien 12",
+        "builtYear": "1930",
+        "campusId": 51
+    },
+    {
+        "id": 273,
+        "nr": "395",
+        "name": "Gløshaugveien 19",
+        "address": "Gløshaugveien 19",
+        "builtYear": "1935",
+        "campusId": 51
+    },
+    {
+        "id": 591,
+        "nr": "396",
+        "name": "Gløshaugveien 3B",
+        "address": "Gløshaugveien 3B",
+        "builtYear": null,
+        "campusId": 52
+    },
+    {
+        "id": 272,
+        "nr": "393",
+        "name": "Gløshaugveien 5",
+        "address": "Gløshaugveien 5",
+        "builtYear": "1928",
+        "campusId": 51
+    },
+    {
+        "id": 1291,
+        "nr": "079",
+        "name": "Gramåsen",
+        "address": null,
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 717,
+        "nr": "384",
+        "name": "Grensen 12",
+        "address": "Grensen 12",
+        "builtYear": null,
+        "campusId": 53
+    },
+    {
+        "id": 718,
+        "nr": "383",
+        "name": "Grensen 14",
+        "address": "Grensen 14",
+        "builtYear": null,
+        "campusId": 53
+    },
+    {
+        "id": 719,
+        "nr": "382",
+        "name": "Grensen 15",
+        "address": "Grensen 15",
+        "builtYear": null,
+        "campusId": 53
+    },
+    {
+        "id": 713,
+        "nr": "388",
+        "name": "Grensen 6",
+        "address": "Grensen 6",
+        "builtYear": null,
+        "campusId": 53
+    },
+    {
+        "id": 716,
+        "nr": "385",
+        "name": "Grensen 7",
+        "address": "Grensen 7",
+        "builtYear": null,
+        "campusId": 53
+    },
+    {
+        "id": 715,
+        "nr": "386",
+        "name": "Grensen 8",
+        "address": "Grensen 8",
+        "builtYear": null,
+        "campusId": 53
+    },
+    {
+        "id": 714,
+        "nr": "387",
+        "name": "Grensen 9",
+        "address": "Grensen 9",
+        "builtYear": null,
+        "campusId": 53
+    },
+    {
+        "id": 16,
+        "nr": "332",
+        "name": "Grønnbygget",
+        "address": "Richard Birkelands vei 3",
+        "builtYear": "1958",
+        "campusId": 3
+    },
+    {
+        "id": 101,
+        "nr": "130",
+        "name": "Gunnerusbiblioteket",
+        "address": "Kalvskinnsgata 1B",
+        "builtYear": "1975",
+        "campusId": 1
+    },
+    {
+        "id": 75,
+        "nr": "125",
+        "name": "Gunnerushuset",
+        "address": "Erling Skakkes gate 47B",
+        "builtYear": "1866",
+        "campusId": 1
+    },
+    {
+        "id": 951,
+        "nr": "950",
+        "name": "HUNT",
+        "address": "Forskningsvegen 2",
+        "builtYear": null,
+        "campusId": 9
+    },
+    {
+        "id": 88,
+        "nr": "842",
+        "name": "Halsenget",
+        "address": "Estenstadvegen 35",
+        "builtYear": "1900",
+        "campusId": 8
+    },
+    {
+        "id": 271,
+        "nr": "392",
+        "name": "Hans Osnes veg 12",
+        "address": "Hans Osnes veg 12",
+        "builtYear": null,
+        "campusId": 51
+    },
+    {
+        "id": 18,
+        "nr": "641",
+        "name": "Havlaboratoriet",
+        "address": "Professor J. H. L. Vogts veg 1",
+        "builtYear": "1981",
+        "campusId": 6
+    },
+    {
+        "id": 330,
+        "nr": "094a",
+        "name": "Havstadvegen 15A",
+        "address": "Havstadvegen 15A",
+        "builtYear": "1966",
+        "campusId": 51
+    },
+    {
+        "id": 331,
+        "nr": "094b",
+        "name": "Havstadvegen 15D",
+        "address": "Havstadvegen 15D",
+        "builtYear": "1966",
+        "campusId": 51
+    },
+    {
+        "id": 20,
+        "nr": "301",
+        "name": "Hovedbygningen",
+        "address": "Høgskoleringen 1",
+        "builtYear": "1910",
+        "campusId": 3
+    },
+    {
+        "id": 167,
+        "nr": "358",
+        "name": "Høgskoleringen 3",
+        "address": "Høgskoleringen 3",
+        "builtYear": "2002",
+        "campusId": 3
+    },
+    {
+        "id": 711,
+        "nr": "390",
+        "name": "Høgskoleveien 2",
+        "address": "Høgskoleveien 2",
+        "builtYear": null,
+        "campusId": 53
+    },
+    {
+        "id": 712,
+        "nr": "389",
+        "name": "Høgskoleveien 4",
+        "address": "Høgskoleveien 4",
+        "builtYear": null,
+        "campusId": 53
+    },
+    {
+        "id": 44,
+        "nr": "317",
+        "name": "IT-bygget",
+        "address": "Sem Sælands vei 9",
+        "builtYear": "1973",
+        "campusId": 3
+    },
+    {
+        "id": 2,
+        "nr": "318",
+        "name": "IT-bygget, sydfløy",
+        "address": "Sem Sælands vei 7",
+        "builtYear": "1965",
+        "campusId": 3
+    },
+    {
+        "id": 21,
+        "nr": "335",
+        "name": "Idrettsbygget",
+        "address": "Christian Frederiks gate 20",
+        "builtYear": "1966",
+        "campusId": 3
+    },
+    {
+        "id": 145,
+        "nr": "850",
+        "name": "Idrettssenteret",
+        "address": "Loholt allé 81",
+        "builtYear": "1998",
+        "campusId": 8
+    },
+    {
+        "id": 1111,
+        "nr": null,
+        "name": "Industrial Ecology Programme",
+        "address": null,
+        "builtYear": null,
+        "campusId": 72
+    },
+    {
+        "id": 138,
+        "nr": "075",
+        "name": "Industribygget",
+        "address": "Innherredsveien 7",
+        "builtYear": "1946",
+        "campusId": 10
+    },
+    {
+        "id": 64,
+        "nr": "343",
+        "name": "Infohuset",
+        "address": "O. S. Bragstads plass 1",
+        "builtYear": "1898",
+        "campusId": 3
+    },
+    {
+        "id": 1271,
+        "nr": "078",
+        "name": "Jonsvannsveien 82",
+        "address": "Jonsvannsveien 82",
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 154,
+        "nr": "165",
+        "name": "Kalvskinnet garasje",
+        "address": "Erling Skakkes gate 47A",
+        "builtYear": null,
+        "campusId": 1
+    },
+    {
+        "id": 94,
+        "nr": "925",
+        "name": "Kamtjernhytta",
+        "address": null,
+        "builtYear": "1968",
+        "campusId": 9
+    },
+    {
+        "id": 23,
+        "nr": "640",
+        "name": "Kavitasjonslaboratoriet",
+        "address": "Professor J. H. L. Vogts veg 1",
+        "builtYear": "1965",
+        "campusId": 6
+    },
+    {
+        "id": 1192,
+        "nr": null,
+        "name": "Kavli institute/Centre for Neural Computation",
+        "address": null,
+        "builtYear": null,
+        "campusId": 78
+    },
+    {
+        "id": 210,
+        "nr": "354",
+        "name": "Kjelhuset",
+        "address": "Kolbjørn Hejes vei 1",
+        "builtYear": "1951",
+        "campusId": 3
+    },
+    {
+        "id": 24,
+        "nr": "311",
+        "name": "Kjemi 1",
+        "address": "Sem Sælands vei 14",
+        "builtYear": "1954",
+        "campusId": 3
+    },
+    {
+        "id": 25,
+        "nr": "312",
+        "name": "Kjemi 2",
+        "address": "Sem Sælands vei 12",
+        "builtYear": "1955",
+        "campusId": 3
+    },
+    {
+        "id": 26,
+        "nr": "313",
+        "name": "Kjemi 3",
+        "address": "Sem Sælands vei 8",
+        "builtYear": "1967",
+        "campusId": 3
+    },
+    {
+        "id": 27,
+        "nr": "314",
+        "name": "Kjemi 4",
+        "address": "Sem Sælands vei 6",
+        "builtYear": "1965",
+        "campusId": 3
+    },
+    {
+        "id": 28,
+        "nr": "315",
+        "name": "Kjemi 5",
+        "address": "Sem Sælands vei 4",
+        "builtYear": "1957",
+        "campusId": 3
+    },
+    {
+        "id": 30,
+        "nr": "310",
+        "name": "Kjemi sydfløy",
+        "address": "Sem Sælands vei 10",
+        "builtYear": "1967",
+        "campusId": 3
+    },
+    {
+        "id": 29,
+        "nr": "316",
+        "name": "Kjemihallen",
+        "address": "Sem Sælands vei 2",
+        "builtYear": "1959",
+        "campusId": 3
+    },
+    {
+        "id": 171,
+        "nr": "062",
+        "name": "Kjøpmannsgata 42",
+        "address": "Kjøpmannsgata 42",
+        "builtYear": "1904",
+        "campusId": 10
+    },
+    {
+        "id": 278,
+        "nr": "091",
+        "name": "Klostergata 18",
+        "address": "Klostergata 18",
+        "builtYear": "1900",
+        "campusId": 51
+    },
+    {
+        "id": 169,
+        "nr": "240",
+        "name": "Klostergata 46",
+        "address": "Klostergata 46",
+        "builtYear": "1930",
+        "campusId": 2
+    },
+    {
+        "id": 592,
+        "nr": "491",
+        "name": "Klæbuveien 146",
+        "address": "Klæbuveien 146",
+        "builtYear": null,
+        "campusId": 51
+    },
+    {
+        "id": 593,
+        "nr": "492",
+        "name": "Klæbuveien 148",
+        "address": "Klæbuveien 148",
+        "builtYear": null,
+        "campusId": 51
+    },
+    {
+        "id": 93,
+        "nr": "920",
+        "name": "Kongsvoll",
+        "address": null,
+        "builtYear": "1938",
+        "campusId": 9
+    },
+    {
+        "id": 136,
+        "nr": "065",
+        "name": "Krambugt 12/14",
+        "address": "Krambugata 12",
+        "builtYear": "1908",
+        "campusId": 10
+    },
+    {
+        "id": 1211,
+        "nr": "2-420",
+        "name": "Kunnskapssenteret",
+        "address": null,
+        "builtYear": null,
+        "campusId": 2
+    },
+    {
+        "id": 471,
+        "nr": "2-240",
+        "name": "Kvinne-barnsenteret",
+        "address": "Olav Kyrres gate 11",
+        "builtYear": "2005",
+        "campusId": 2
+    },
+    {
+        "id": 451,
+        "nr": "2-230",
+        "name": "Laboratoriesenteret",
+        "address": "Erling Skjalgsons gate 1",
+        "builtYear": "2005",
+        "campusId": 2
+    },
+    {
+        "id": 79,
+        "nr": "435",
+        "name": "Lager Driftsavdelingen",
+        "address": "S. P. Andersens veg 21",
+        "builtYear": "1986",
+        "campusId": 4
+    },
+    {
+        "id": 38,
+        "nr": "448",
+        "name": "Lerchendal gård, Bårdstubygn.",
+        "address": "Strindvegen 2",
+        "builtYear": null,
+        "campusId": 4
+    },
+    {
+        "id": 39,
+        "nr": "447",
+        "name": "Lerchendal gård, Hovedbygning",
+        "address": "Strindvegen 2",
+        "builtYear": "1762",
+        "campusId": 4
+    },
+    {
+        "id": 159,
+        "nr": "449",
+        "name": "Lerchendal gård, stabbur",
+        "address": "Strindvegen 2",
+        "builtYear": "Ca. 1800",
+        "campusId": 4
+    },
+    {
+        "id": 177,
+        "nr": "940",
+        "name": "Longyearbyen",
+        "address": "Vei 401-36",
+        "builtYear": null,
+        "campusId": 9
+    },
+    {
+        "id": 611,
+        "nr": "350",
+        "name": "Lucas",
+        "address": "Christian Frederiks gate 2E",
+        "builtYear": null,
+        "campusId": 52
+    },
+    {
+        "id": 130,
+        "nr": "825",
+        "name": "Låven",
+        "address": "Dragvoll allé 40",
+        "builtYear": "1996",
+        "campusId": 8
+    },
+    {
+        "id": 179,
+        "nr": "214",
+        "name": "MR-senteret",
+        "address": "Olav Kyrres gate 17",
+        "builtYear": "1986",
+        "campusId": 2
+    },
+    {
+        "id": 96,
+        "nr": "220",
+        "name": "MTFS, del 1",
+        "address": "Olav Kyrres gate 9",
+        "builtYear": "1991",
+        "campusId": 2
+    },
+    {
+        "id": 161,
+        "nr": "225",
+        "name": "MTFS, del 2",
+        "address": "Edvard Griegs gate 10",
+        "builtYear": "1997",
+        "campusId": 2
+    },
+    {
+        "id": 155,
+        "nr": "176",
+        "name": "Magasinbygning",
+        "address": "Erling Skakkes gate 57 / 59",
+        "builtYear": "1826",
+        "campusId": 1
+    },
+    {
+        "id": 42,
+        "nr": "639",
+        "name": "Marinteknisk senter",
+        "address": "Otto Nielsens veg 10",
+        "builtYear": "1977",
+        "campusId": 6
+    },
+    {
+        "id": 41,
+        "nr": "308",
+        "name": "Materialteknisk",
+        "address": "Richard Birkelands vei 1",
+        "builtYear": "1958",
+        "campusId": 3
+    },
+    {
+        "id": 40,
+        "nr": "304",
+        "name": "Metallurgi",
+        "address": "Alfred Getz' vei 2",
+        "builtYear": "1951",
+        "campusId": 3
+    },
+    {
+        "id": 150,
+        "nr": "077",
+        "name": "Moholt",
+        "address": "Bregnevegen 55",
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 48,
+        "nr": "437",
+        "name": "NHL paviljong",
+        "address": "Klæbuveien 147",
+        "builtYear": "1981",
+        "campusId": 52
+    },
+    {
+        "id": 1011,
+        "nr": "370",
+        "name": "NINA-huset",
+        "address": "Høgskoleringen 9",
+        "builtYear": null,
+        "campusId": 3
+    },
+    {
+        "id": 431,
+        "nr": "2-130",
+        "name": "Nevrosenteret",
+        "address": "Olav Kyrres gate 5",
+        "builtYear": "2005",
+        "campusId": 2
+    },
+    {
+        "id": 47,
+        "nr": "436",
+        "name": "Norsk hydroteknisk laboratorium",
+        "address": "Klæbuveien 153",
+        "builtYear": "1958",
+        "campusId": 4
+    },
+    {
+        "id": 1151,
+        "nr": null,
+        "name": "Norwegian Centre for Child Research (NOSEB)",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 126,
+        "nr": "060",
+        "name": "Olavskvartalet",
+        "address": "Kjøpmannsgata 48",
+        "builtYear": "1989",
+        "campusId": 10
+    },
+    {
+        "id": 49,
+        "nr": "305",
+        "name": "Oppredning/gruvedrift",
+        "address": "Sem Sælands vei 1",
+        "builtYear": "1953",
+        "campusId": 3
+    },
+    {
+        "id": 144,
+        "nr": "365",
+        "name": "PFI",
+        "address": "Høgskoleringen 6B",
+        "builtYear": "1998",
+        "campusId": 3
+    },
+    {
+        "id": 491,
+        "nr": "443",
+        "name": "PTS Paviljong",
+        "address": "S. P. Andersens veg 15",
+        "builtYear": "2005",
+        "campusId": 4
+    },
+    {
+        "id": 50,
+        "nr": "442",
+        "name": "PTS, hallbygg",
+        "address": "S. P. Andersens veg 15",
+        "builtYear": "1984",
+        "campusId": 4
+    },
+    {
+        "id": 187,
+        "nr": "212",
+        "name": "Parkbygget",
+        "address": "Prinsesse Kristinas gate 5",
+        "builtYear": "1980",
+        "campusId": 2
+    },
+    {
+        "id": 98,
+        "nr": "821",
+        "name": "Paviljong A",
+        "address": "Loholt allé 85",
+        "builtYear": "1993",
+        "campusId": 8
+    },
+    {
+        "id": 99,
+        "nr": "822",
+        "name": "Paviljong B",
+        "address": "Loholt allé 85",
+        "builtYear": "1993",
+        "campusId": 8
+    },
+    {
+        "id": 100,
+        "nr": "823",
+        "name": "Paviljong C",
+        "address": "Loholt allé 87",
+        "builtYear": "1993",
+        "campusId": 8
+    },
+    {
+        "id": 791,
+        "nr": "845",
+        "name": "Paviljong fotballbane",
+        "address": "Loholt allé 91",
+        "builtYear": null,
+        "campusId": 8
+    },
+    {
+        "id": 51,
+        "nr": "444",
+        "name": "Petroleumsteknisk senter",
+        "address": "S. P. Andersens veg 15",
+        "builtYear": "1984",
+        "campusId": 4
+    },
+    {
+        "id": 1051,
+        "nr": "441",
+        "name": "Petroleumsteknisk senter Gasslager",
+        "address": "S. P. Andersens vei 15",
+        "builtYear": null,
+        "campusId": 4
+    },
+    {
+        "id": 85,
+        "nr": "824",
+        "name": "Plantebiosenteret",
+        "address": "Dragvoll allé 38",
+        "builtYear": "1995",
+        "campusId": 8
+    },
+    {
+        "id": 132,
+        "nr": "356",
+        "name": "Produktdesign",
+        "address": "Kolbjørn Hejes vei 2B",
+        "builtYear": "1996",
+        "campusId": 3
+    },
+    {
+        "id": 1146,
+        "nr": null,
+        "name": "Programme for Teacher Education",
+        "address": null,
+        "builtYear": null,
+        "campusId": 80
+    },
+    {
+        "id": 129,
+        "nr": "360",
+        "name": "Realfagbygget",
+        "address": "Høgskoleringen 5",
+        "builtYear": "2000",
+        "campusId": 3
+    },
+    {
+        "id": 77,
+        "nr": "085",
+        "name": "Ringve",
+        "address": "Lade allé 58",
+        "builtYear": "1973",
+        "campusId": 10
+    },
+    {
+        "id": 671,
+        "nr": "086",
+        "name": "Ringve, garasje",
+        "address": "Lade allé 58",
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 597,
+        "nr": "494",
+        "name": "S P Andersens vei 17",
+        "address": "S P Andersens vei 17",
+        "builtYear": null,
+        "campusId": 51
+    },
+    {
+        "id": 11,
+        "nr": "320",
+        "name": "SINTEF Energi",
+        "address": "Sem Sælands vei 11",
+        "builtYear": "1960",
+        "campusId": 3
+    },
+    {
+        "id": 931,
+        "nr": "849",
+        "name": "Samfunnshuset",
+        "address": "Dragvoll allé 38B",
+        "builtYear": "2010",
+        "campusId": 8
+    },
+    {
+        "id": 74,
+        "nr": "120",
+        "name": "Schøninghuset",
+        "address": "Erling Skakkes gate 47A",
+        "builtYear": "1950",
+        "campusId": 1
+    },
+    {
+        "id": 1171,
+        "nr": null,
+        "name": "Section of External services",
+        "address": null,
+        "builtYear": null,
+        "campusId": 91
+    },
+    {
+        "id": 1172,
+        "nr": null,
+        "name": "Section of Natural History",
+        "address": null,
+        "builtYear": null,
+        "campusId": 91
+    },
+    {
+        "id": 53,
+        "nr": "321",
+        "name": "Sentralbygg 1",
+        "address": "Alfred Getz' vei 3",
+        "builtYear": "1961",
+        "campusId": 3
+    },
+    {
+        "id": 54,
+        "nr": "322",
+        "name": "Sentralbygg 2",
+        "address": "Alfred Getz' vei 1",
+        "builtYear": "1968",
+        "campusId": 3
+    },
+    {
+        "id": 55,
+        "nr": "352",
+        "name": "Setra",
+        "address": "O. S. Bragstads plass 2",
+        "builtYear": "1986",
+        "campusId": 52
+    },
+    {
+        "id": 142,
+        "nr": "180",
+        "name": "Skansevakta",
+        "address": "Kongens gate 97",
+        "builtYear": "1837",
+        "campusId": 1
+    },
+    {
+        "id": 57,
+        "nr": "334",
+        "name": "Skiboli",
+        "address": "Alfred Getz' vei 6",
+        "builtYear": "1985",
+        "campusId": 3
+    },
+    {
+        "id": 58,
+        "nr": "638",
+        "name": "Skipsmodelltanken",
+        "address": "Paul Fjermstads veg 59",
+        "builtYear": "1939",
+        "campusId": 6
+    },
+    {
+        "id": 92,
+        "nr": "915",
+        "name": "Sletvik",
+        "address": null,
+        "builtYear": "1942",
+        "campusId": 9
+    },
+    {
+        "id": 127,
+        "nr": "160",
+        "name": "Snekkerverksted",
+        "address": "Erling Skakkes gate 47A",
+        "builtYear": "1950",
+        "campusId": 1
+    },
+    {
+        "id": 91,
+        "nr": "910",
+        "name": "Snåsavatn",
+        "address": "Solnesvegen 85",
+        "builtYear": "1967",
+        "campusId": 9
+    },
+    {
+        "id": 350,
+        "nr": "092d",
+        "name": "Sollia 29",
+        "address": "Nordre Risvolltun 10",
+        "builtYear": "1970",
+        "campusId": 51
+    },
+    {
+        "id": 156,
+        "nr": "848",
+        "name": "Stabbur (2)",
+        "address": "Dragvoll allé 40",
+        "builtYear": null,
+        "campusId": 8
+    },
+    {
+        "id": 891,
+        "nr": "010",
+        "name": "Statsarkivet",
+        "address": "Høgskoleveien 12",
+        "builtYear": null,
+        "campusId": 10
+    },
+    {
+        "id": 311,
+        "nr": "895",
+        "name": "Stavsvegen 14",
+        "address": "Stavsvegen 14",
+        "builtYear": null,
+        "campusId": 51
+    },
+    {
+        "id": 310,
+        "nr": "894",
+        "name": "Stavsvegen 22",
+        "address": "Stavsvegen 22",
+        "builtYear": null,
+        "campusId": 51
+    },
+    {
+        "id": 280,
+        "nr": "891",
+        "name": "Stavsvegen 24",
+        "address": "Stavsvegen 24",
+        "builtYear": "1964",
+        "campusId": 51
+    },
+    {
+        "id": 275,
+        "nr": "892",
+        "name": "Stavsvegen 30A",
+        "address": "Stavsvegen 30A",
+        "builtYear": null,
+        "campusId": 51
+    },
+    {
+        "id": 276,
+        "nr": "893",
+        "name": "Stokstua",
+        "address": "Jonsvannsveien 343",
+        "builtYear": "1949",
+        "campusId": 52
+    },
+    {
+        "id": 60,
+        "nr": "303",
+        "name": "Strømningsteknisk",
+        "address": "Kolbjørn Hejes vei 2",
+        "builtYear": "1965",
+        "campusId": 3
+    },
+    {
+        "id": 76,
+        "nr": "135",
+        "name": "Suhmhuset",
+        "address": "Elvegata 6",
+        "builtYear": "1880",
+        "campusId": 1
+    },
+    {
+        "id": 277,
+        "nr": "191",
+        "name": "Sverres gate 8",
+        "address": "Sverres gate 8",
+        "builtYear": "1858",
+        "campusId": 51
+    },
+    {
+        "id": 95,
+        "nr": "930",
+        "name": "Svinvik",
+        "address": null,
+        "builtYear": "1942",
+        "campusId": 52
+    },
+    {
+        "id": 190,
+        "nr": "260",
+        "name": "Teknobyen",
+        "address": "Abels gate 5",
+        "builtYear": null,
+        "campusId": 2
+    },
+    {
+        "id": 133,
+        "nr": "935",
+        "name": "Titran",
+        "address": null,
+        "builtYear": "1950",
+        "campusId": 9
+    },
+    {
+        "id": 147,
+        "nr": "450",
+        "name": "Transportsentralen",
+        "address": "S. P. Andersens veg 13",
+        "builtYear": "2001",
+        "campusId": 4
+    },
+    {
+        "id": 62,
+        "nr": "445",
+        "name": "Turbinlaboratoriet",
+        "address": "S. P. Andersens veg 7",
+        "builtYear": "1984",
+        "campusId": 4
+    },
+    {
+        "id": 148,
+        "nr": "357",
+        "name": "VM-paviljongen",
+        "address": "Høgskoleringen 4",
+        "builtYear": "1996",
+        "campusId": 3
+    },
+    {
+        "id": 162,
+        "nr": "460",
+        "name": "Valgrinda 2000",
+        "address": "S. P. Andersens veg 5",
+        "builtYear": "2000",
+        "campusId": 4
+    },
+    {
+        "id": 65,
+        "nr": "324",
+        "name": "Vannkraftlaboratoriet",
+        "address": "Alfred Getz' vei 4",
+        "builtYear": "1916",
+        "campusId": 3
+    },
+    {
+        "id": 175,
+        "nr": "805",
+        "name": "Varmesentral",
+        "address": "Loholt allé 90",
+        "builtYear": "1978",
+        "campusId": 8
+    },
+    {
+        "id": 66,
+        "nr": "302",
+        "name": "Varmeteknisk",
+        "address": "Kolbjørn Hejes vei 1",
+        "builtYear": "1962",
+        "campusId": 3
+    },
+    {
+        "id": 1031,
+        "nr": "190",
+        "name": "Vaskeribygget",
+        "address": "Kongens gate 93",
+        "builtYear": null,
+        "campusId": 1
+    },
+    {
+        "id": 45,
+        "nr": "446",
+        "name": "Vassbygget",
+        "address": "S. P. Andersens veg 5",
+        "builtYear": "1984",
+        "campusId": 4
+    },
+    {
+        "id": 67,
+        "nr": "307",
+        "name": "Verkstedteknisk",
+        "address": "Richard Birkelands vei 2",
+        "builtYear": "1966",
+        "campusId": 3
+    },
+    {
+        "id": 61,
+        "nr": "330",
+        "name": "Vestre Gløshaugen",
+        "address": "O. S. Bragstads plass 3",
+        "builtYear": "1850",
+        "campusId": 3
+    },
+    {
+        "id": 181,
+        "nr": "434",
+        "name": "Ødegården",
+        "address": "S. P. Andersens veg ?",
+        "builtYear": "1977",
+        "campusId": 4
+    },
+    {
+        "id": 1,
+        "nr": "342",
+        "name": "Østre Gløshaugen",
+        "address": "Høgskoleringen 1B",
+        "builtYear": "1872",
+        "campusId": 3
+    },
+    {
+        "id": 90,
+        "nr": "846",
+        "name": "Øvre Stokkan",
+        "address": "Stokkanhaugen 181",
+        "builtYear": null,
+        "campusId": 8
+    },
+    {
+        "id": 571,
+        "nr": "280",
+        "name": "Øya helsehus",
+        "address": "Mauritz Hansens gate 2",
+        "builtYear": "2008",
+        "campusId": 2
+    },
+    {
+        "id": 771,
+        "nr": "281",
+        "name": "Øya helsehus - garasjekjeller",
+        "address": "Mauritz Hansens gate 2",
+        "builtYear": null,
+        "campusId": 2
     }
-}
+]

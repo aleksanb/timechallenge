@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails TimeChallenge: development" uuid="407a4ad3-75a8-4e5d-bb7c-79e06126d12b">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:db/development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>

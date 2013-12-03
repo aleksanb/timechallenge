@@ -9,7 +9,6 @@
 #  updated_at  :datetime
 #  reward      :string(255)
 #  building_id :integer
-#  room_id     :integer
 #
 
 class Challenge < ActiveRecord::Base
@@ -17,6 +16,7 @@ class Challenge < ActiveRecord::Base
 
   has_many :participations
   has_many :users, through: :participations
+  belongs_to :building
 
   validates_presence_of :title, :deadline, :reward
 

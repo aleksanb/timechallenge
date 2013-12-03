@@ -19,6 +19,6 @@
 //= require picker.date
 //= require picker.time
 //
-//= require typeahead.min
+//= require chosen.jquery.min
 //
 //= require_tree .

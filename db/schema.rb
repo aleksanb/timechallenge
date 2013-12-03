@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131203110246) do
+ActiveRecord::Schema.define(version: 20131203164949) do
+
+  create_table "buildings", force: true do |t|
+    t.integer  "building_id"
+    t.string   "nr"
+    t.string   "name"
+    t.string   "address"
+    t.integer  "built_year"
+    t.integer  "campus_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "challenges", force: true do |t|
     t.string   "title"
@@ -20,8 +31,9 @@ ActiveRecord::Schema.define(version: 20131203110246) do
     t.datetime "updated_at"
     t.string   "reward"
     t.integer  "building_id"
-    t.integer  "room_id"
   end
+
+  add_index "challenges", ["building_id"], name: "index_challenges_on_building_id"
 
   create_table "participations", force: true do |t|
     t.integer  "user_id"

@@ -9,7 +9,6 @@
 #  updated_at  :datetime
 #  reward      :string(255)
 #  building_id :integer
-#  room_id     :integer
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
