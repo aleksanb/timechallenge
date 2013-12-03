@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: challenges
+#
+#  id          :integer          not null, primary key
+#  title       :string(255)
+#  deadline    :datetime
+#  created_at  :datetime
+#  updated_at  :datetime
+#  reward      :string(255)
+#  building_id :integer
+#  room_id     :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  deadline: 2013-12-01 23:54:46
+
+two:
+  title: MyString
+  deadline: 2013-12-01 23:54:46

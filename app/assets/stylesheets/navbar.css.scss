@@ -1,0 +1,43 @@
+.navbar {
+  $link-color: #777;
+  $navbar-height: 50px;
+
+  height: $navbar-height;
+  line-height: $navbar-height;
+  border-bottom: 1px solid #CCCCCC;
+
+  a {
+    color: $link-color;
+
+    &:hover {
+      color: lighten($link-color, 10%);
+    }
+  }
+
+  .navbar-left {
+    float: left;
+    margin-left: 10px;
+
+    #brand {
+      font-weight: 600;
+    }
+  }
+
+  .navbar-right {
+    float: right;
+    margin-right: 10px;
+
+    ul {
+      overflow: hidden;
+      li {
+        float: left;
+        margin: 0 $navbar-height / 10;
+
+        #gravatar {
+          padding: ($navbar-height - 40px) / 2 0;
+          display: block;
+        }
+      }
+    }
+  }
+}

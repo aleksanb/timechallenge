@@ -1,0 +1,7 @@
+%h1 Challenges
+
+%ul
+  - @challenges.each do |challenge|
+    %li= link_to challenge.title, challenge
+
+= link_to 'Create new challenge', new_challenge_path

@@ -1,0 +1,856 @@
+{
+    "rooms": [
+        {
+            "id": 26682,
+            "nr": "001",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26684,
+            "nr": "002",
+            "name": null,
+            "type": "Trafikkareal",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26680,
+            "nr": "003",
+            "name": null,
+            "type": "Lager",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26686,
+            "nr": "004",
+            "name": null,
+            "type": "Teknisk rom",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26668,
+            "nr": "010",
+            "name": null,
+            "type": "Korridor",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26678,
+            "nr": "011",
+            "name": null,
+            "type": "Lager",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26694,
+            "nr": "012",
+            "name": null,
+            "type": "Garderobe",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26696,
+            "nr": "013",
+            "name": null,
+            "type": "Garderobe",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26692,
+            "nr": "014",
+            "name": null,
+            "type": "Garderobe",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26690,
+            "nr": "015",
+            "name": null,
+            "type": "WC - handicap",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26688,
+            "nr": "016",
+            "name": null,
+            "type": "Garderobe",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26664,
+            "nr": "017",
+            "name": null,
+            "type": "Teknisk rom",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26666,
+            "nr": "018",
+            "name": null,
+            "type": "Bøttekott, vaskepost",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26676,
+            "nr": "021",
+            "name": null,
+            "type": "Laboratorium",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26670,
+            "nr": "025",
+            "name": null,
+            "type": "Datamaskinrom",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26672,
+            "nr": "026",
+            "name": null,
+            "type": "Telematikkrom",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26674,
+            "nr": "027",
+            "name": null,
+            "type": "Lager",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26656,
+            "nr": "031",
+            "name": null,
+            "type": "Trafo",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26658,
+            "nr": "032",
+            "name": null,
+            "type": "Elektrisk",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 28843,
+            "nr": "033",
+            "name": null,
+            "type": "Teknisk rom",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26660,
+            "nr": "034",
+            "name": null,
+            "type": "Lager",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26662,
+            "nr": "039",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 847
+        },
+        {
+            "id": 26654,
+            "nr": "101",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26652,
+            "nr": "102",
+            "name": null,
+            "type": "Vrimleareal, vestibyle",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26643,
+            "nr": "103",
+            "name": null,
+            "type": "Studentverksted",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26645,
+            "nr": "110",
+            "name": null,
+            "type": "Korridor",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26641,
+            "nr": "111",
+            "name": null,
+            "type": "Studentverksted",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26637,
+            "nr": "113",
+            "name": "Lukas",
+            "type": "Studentverksted",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26647,
+            "nr": "121",
+            "name": null,
+            "type": "Studentverksted",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26649,
+            "nr": "122",
+            "name": null,
+            "type": "Lager",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26639,
+            "nr": "127",
+            "name": null,
+            "type": "Kontor",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26628,
+            "nr": "130",
+            "name": null,
+            "type": "Vareinntak",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26632,
+            "nr": "137",
+            "name": null,
+            "type": "Elektrisk",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26635,
+            "nr": "138",
+            "name": null,
+            "type": "Telematikkrom",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26630,
+            "nr": "139",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 849
+        },
+        {
+            "id": 26621,
+            "nr": "201",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26619,
+            "nr": "202",
+            "name": null,
+            "type": "Vrimleareal, vestibyle",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26617,
+            "nr": "203",
+            "name": null,
+            "type": "Grupperom",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26615,
+            "nr": "211",
+            "name": null,
+            "type": "Studentlaboratorium",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26609,
+            "nr": "230",
+            "name": null,
+            "type": "Korridor",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26599,
+            "nr": "231",
+            "name": null,
+            "type": "Lager",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26601,
+            "nr": "232",
+            "name": null,
+            "type": "WC - handicap",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26603,
+            "nr": "233",
+            "name": null,
+            "type": "WC - herrer",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26605,
+            "nr": "234",
+            "name": null,
+            "type": "WC - damer",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26607,
+            "nr": "235",
+            "name": null,
+            "type": "Bøttekott, vaskepost",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26611,
+            "nr": "236",
+            "name": null,
+            "type": "Lager",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 28844,
+            "nr": "237",
+            "name": null,
+            "type": "Elektrisk",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26624,
+            "nr": "238",
+            "name": null,
+            "type": "Telematikkrom",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26613,
+            "nr": "239",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 851
+        },
+        {
+            "id": 26597,
+            "nr": "301",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26595,
+            "nr": "302",
+            "name": null,
+            "type": "Vrimleareal, vestibyle",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26593,
+            "nr": "303",
+            "name": null,
+            "type": "Kontor",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26581,
+            "nr": "310",
+            "name": null,
+            "type": "Korridor",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26588,
+            "nr": "311",
+            "name": "Gobo",
+            "type": "Undervisningsrom data felles",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26583,
+            "nr": "314",
+            "name": "Bober",
+            "type": "Undervisningsrom data felles",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26590,
+            "nr": "321",
+            "name": "Moki",
+            "type": "Undervisningsrom data felles",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26586,
+            "nr": "324",
+            "name": "Vips",
+            "type": "Undervisningsrom data felles",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26579,
+            "nr": "330",
+            "name": null,
+            "type": "Korridor",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26561,
+            "nr": "331",
+            "name": null,
+            "type": "Vrimleareal, vestibyle",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26563,
+            "nr": "332",
+            "name": null,
+            "type": "WC - handicap",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26565,
+            "nr": "333",
+            "name": null,
+            "type": "WC - herrer",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26567,
+            "nr": "334",
+            "name": null,
+            "type": "WC - damer",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26569,
+            "nr": "335",
+            "name": null,
+            "type": "Bøttekott, vaskepost",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26577,
+            "nr": "336",
+            "name": null,
+            "type": "Datarom, kopirom",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26571,
+            "nr": "337",
+            "name": null,
+            "type": "Elektrisk",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26573,
+            "nr": "338",
+            "name": null,
+            "type": "Telematikkrom",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26575,
+            "nr": "339",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 853
+        },
+        {
+            "id": 26557,
+            "nr": "401",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26555,
+            "nr": "402",
+            "name": null,
+            "type": "Vrimleareal, vestibyle",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26559,
+            "nr": "403",
+            "name": null,
+            "type": "Kontorvirksomhet",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26543,
+            "nr": "410",
+            "name": null,
+            "type": "Korridor",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26551,
+            "nr": "411",
+            "name": "Rill",
+            "type": "Undervisningsrom data felles",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 28546,
+            "nr": "414",
+            "name": "Gorg",
+            "type": "Undervisningsrom data felles",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26553,
+            "nr": "421",
+            "name": "Rall",
+            "type": "Undervisningsrom data felles",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26547,
+            "nr": "424",
+            "name": "Vembi",
+            "type": "Undervisningsrom data felles",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26531,
+            "nr": "430",
+            "name": null,
+            "type": "Korridor",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26523,
+            "nr": "431",
+            "name": null,
+            "type": "Vrimleareal, vestibyle",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26525,
+            "nr": "432",
+            "name": null,
+            "type": "WC - handicap",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26527,
+            "nr": "433",
+            "name": null,
+            "type": "WC - herrer",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26529,
+            "nr": "434",
+            "name": null,
+            "type": "WC - damer",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26533,
+            "nr": "435",
+            "name": null,
+            "type": "Bøttekott, vaskepost",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26535,
+            "nr": "436",
+            "name": null,
+            "type": "Datarom, kopirom",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26541,
+            "nr": "437",
+            "name": null,
+            "type": "Elektrisk",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26539,
+            "nr": "438",
+            "name": null,
+            "type": "Telematikkrom",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26537,
+            "nr": "439",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 855
+        },
+        {
+            "id": 26505,
+            "nr": "501",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26509,
+            "nr": "502",
+            "name": null,
+            "type": "Vrimleareal, vestibyle",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26511,
+            "nr": "503",
+            "name": null,
+            "type": "Kontorvirksomhet",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26521,
+            "nr": "510",
+            "name": null,
+            "type": "Korridor",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26507,
+            "nr": "511",
+            "name": null,
+            "type": "Kontorvirksomhet",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26517,
+            "nr": "513",
+            "name": null,
+            "type": "Grupperom felles",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26519,
+            "nr": "515",
+            "name": "Doc",
+            "type": "Studentarbeidsplass felles",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 28472,
+            "nr": "516",
+            "name": null,
+            "type": "Elektroverksted",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 28470,
+            "nr": "517",
+            "name": null,
+            "type": "Telematikkrom",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26513,
+            "nr": "521",
+            "name": "Sprokkit",
+            "type": "Undervisningsrom data felles",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26515,
+            "nr": "524",
+            "name": null,
+            "type": "Dataarbeidsplass felles",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26497,
+            "nr": "530",
+            "name": null,
+            "type": "Korridor",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26485,
+            "nr": "531",
+            "name": null,
+            "type": "Vrimleareal, vestibyle",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26487,
+            "nr": "532",
+            "name": null,
+            "type": "WC - handicap",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26489,
+            "nr": "533",
+            "name": null,
+            "type": "WC - herrer",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26491,
+            "nr": "534",
+            "name": null,
+            "type": "WC - damer",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26493,
+            "nr": "535",
+            "name": null,
+            "type": "Bøttekott, vaskepost",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26495,
+            "nr": "536",
+            "name": null,
+            "type": "Nærlager",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26503,
+            "nr": "537",
+            "name": null,
+            "type": "Elektrisk",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26501,
+            "nr": "538",
+            "name": null,
+            "type": "Telematikkrom",
+            "buildingId": 167,
+            "floorId": 857
+        },
+        {
+            "id": 26499,
+            "nr": "539",
+            "name": null,
+            "type": "Trapp, trapperom",
+            "buildingId": 167,
+            "floorId": 857
+        }
+    ],
+    "cache": {
+        "updated": "2013-12-03T10:55:17+01:00",
+        "expires": "2013-12-10T10:55:17+01:00"
+    }
+}

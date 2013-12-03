@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: participations
+#
+#  id           :integer          not null, primary key
+#  user_id      :integer
+#  challenge_id :integer
+#  created_at   :datetime
+#  updated_at   :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  User_id: 
+  Challenge_id: 
+
+two:
+  User_id: 
+  Challenge_id: 

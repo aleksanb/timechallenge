@@ -1,0 +1,19 @@
+!!!!! 5
+
+%html
+  %head
+    %title TimeChallenge
+    = stylesheet_link_tag 'application'
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Open+Sans:300,600'
+    %meta{ content: 'width=device-width, initial-scale=1, minimum-scale=1', name: 'viewport' }
+    = csrf_meta_tags
+
+  %body
+    = render 'layouts/navbar'
+    .outer-container
+      - unless flash.empty?
+        - flash.each do |key, value|
+          .flash{ class: key }
+            = value
+      = yield
+    = javascript_include_tag 'application'
