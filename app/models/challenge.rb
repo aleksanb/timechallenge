@@ -16,14 +16,24 @@ class Challenge < ActiveRecord::Base
 
   has_many :participations
   has_many :users, through: :participations
-  belongs_to :building
+  # belongs_to :building
 
-  validates_presence_of :title, :deadline, :reward
+  validates :title, :deadline, :reward, presence: true
+  validates :deadline,
+    date: { after: Proc.new { Date.current }}
 
   split_accessor :deadline, default: -> { DateTime.current }
 
   def to_param
-    super.to_param + '-' + title.parameterize
+    "#{super.to_param}-#{title}".parameterize
+  end
+
+  def attendable? user
+    user && Time.current < deadline && users.exclude?(user)
+  end
+
+  def unattendable? user
+    user && Time.current < deadline && users.include?(user)
   end
 
 end

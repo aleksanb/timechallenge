@@ -1,19 +1,24 @@
 class ParticipationsController < ApplicationController
+
   def create
     @challenge = Challenge.find(params[:challenge_id])
-    if current_user.challenges.include? @challenge
-      flash[:failure] = 'You are allready attending'
-      redirect_to @challenge
+
+    participation = @challenge.participations.build(user: current_user)
+    if participation.save
+      flash[:success] = "You are now attending this challenge."
     else
-      @participation = @challenge.participations.create
-      current_user.participations << @participation
-      redirect_to @challenge
+      flash[:error] = "Failed to attend challenge. "
+      flash[:error] << participation.errors.full_messages.join(" ")
     end
+
+    redirect_to @challenge
   end
 
   def destroy
     @challenge = Challenge.find(params[:challenge_id])
     current_user.challenges.destroy(@challenge)
+
+    flash[:success] = "You are no longer attending this challenge."
     redirect_to @challenge
   end
 end

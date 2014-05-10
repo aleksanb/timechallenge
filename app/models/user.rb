@@ -15,6 +15,7 @@
 class User < ActiveRecord::Base
   has_many :participations
   has_many :challenges, through: :participations
+  has_many :roles
 
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
@@ -32,4 +33,7 @@ class User < ActiveRecord::Base
     "https://secure.gravatar.com/avatar/#{gravatar_id}.png?s=#{size}"
   end
 
+  def role_symbols
+    (roles || []).map {|r| r.title.to_sym} << :user
+  end
 end

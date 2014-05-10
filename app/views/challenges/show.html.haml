@@ -1,14 +1,29 @@
-%h1= @challenge.title
-%p
-  = @challenge.reward
-%p
-  = "#{l @challenge.deadline_time}. #{l @challenge.deadline_date}"
-%p
-  = @challenge.building.name
-%ul
-  - @challenge.users.each do |user|
-    %li= user.name
-    %li= image_tag(user.gravatar_url(size = 40), id: 'gravatar')
+%h2
+  = @challenge.title
 
-= link_to 'Attend', challenge_participations_path(@challenge), method: :post
-= link_to 'Unattend', challenge_participation_path(@challenge, current_user), method: :delete
+%dl
+  %dt Reward
+  %dd= @challenge.reward
+
+  %dt Date
+  %dd= @challenge.deadline
+
+  %dt Attending users
+  %dd
+    %ul
+      - if @challenge.users.any?
+        - @challenge.users.each do |user|
+          %li= user.name
+          %li= image_tag(user.gravatar_url(size = 40), id: 'gravatar')
+          - if @challenge.unattendable?(@current_user) && @current_user == user
+            %li= link_to 'Ditsj', |
+              challenge_participation_path(@challenge, current_user), |
+              method: :delete
+      - else
+        No attendees. Be the first!
+
+- if @challenge.attendable? @current_user
+  = link_to 'Attend', challenge_participations_path(@challenge), method: :post
+
+- if permitted_to? :manage, :challenges
+  = link_to "Destroy challenge", @challenge, method: :delete, data: { confirm: "Are you sure you wish to destroy this challenge? All attendees will be notified." }

@@ -1,7 +1,19 @@
-%h1 Challenges
+%table
+  %caption Upcoming challenges
+  %thead
+    %tr
+      %th Title
+      %th Reward
+      %th Location
+      %th
+  %tbody
+    - @challenges.each do |challenge|
+      %tr
+        %td= link_to challenge.title, challenge
+        %td= challenge.reward
+        %td Coming soon
+        - if challenge.attendable?(@current_user)
+          %td= link_to 'Attend', challenge_participations_path(challenge), method: :post
 
-%ul
-  - @challenges.each do |challenge|
-    %li= link_to challenge.title, challenge
-
-= link_to 'Create new challenge', new_challenge_path
+- if permitted_to? :create, :challenges
+  = link_to 'Create new challenge', new_challenge_path
