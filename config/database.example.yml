@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  host: localhost
+  database: burkow_challenge
+  pool: 5
+  timeout: 5000
+  username: burkow
+  password:
+
