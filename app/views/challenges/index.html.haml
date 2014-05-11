@@ -12,7 +12,7 @@
     - @challenges.each do |challenge|
       %tr
         %td= link_to challenge.title, challenge
-        %td= challenge.deadline
+        %td #{l(challenge.deadline_date, format: :default)} @ #{l(challenge.deadline_time, format: :default)}
         %td= challenge.reward
         %td Coming soon
         %td= challenge.users.count

@@ -25,7 +25,7 @@ en:
       default: '%e %B, %Y'
   time:
     formats:
-      default: '%k:%M'
+      default: '%H:%M'
   datetime:
     formats:
-      default: '%e %B, %Y. %k:%M'
+      default: '%k:%M %B'

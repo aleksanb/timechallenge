@@ -6,7 +6,7 @@
   %dd= @challenge.reward
 
   %dt Date
-  %dd= @challenge.deadline
+  %dd #{l(@challenge.deadline_date, format: :default)} @ #{l(@challenge.deadline_time, format: :default)}
 
   %dt Attending users
   %dd
