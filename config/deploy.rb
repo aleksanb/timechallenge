@@ -69,6 +69,14 @@ task :deploy => :environment do
   end
 end
 
+namespace :unicorn do
+  desc "Start unicorn daemon."
+  task :start => :environment do
+    queue %{cd #{deploy_to}/current/}
+    queue %{bundle exec unicorn_rails -c config/unicorn.rb -D -E production}
+  end
+end
+
 # For help in making your deploy script, see the Mina documentation:
 #
 #  - http://nadarei.co/mina

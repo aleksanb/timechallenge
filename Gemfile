@@ -51,6 +51,9 @@ gem 'declarative_authorization'
 group :production do
   # Postgres as database gem
   gem 'pg'
+
+  # L33t webserver
+  gem 'unicorn'
 end
 
 group :doc do
