@@ -23,8 +23,8 @@ class Participation < ActiveRecord::Base
   private
 
   def timechallenge_date_passed
-    if Time.current >= challenge.deadline
-      errors.add(:base, "This challenge has begun, no further participants are allowed.")
+    if Time.current >= challenge.participation_deadline
+      errors.add(:base, "This challenge has begun, no changes in participants are allowed.")
     end
 
     errors.blank?

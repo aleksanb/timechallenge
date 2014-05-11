@@ -5,4 +5,8 @@ body {
 
 .outer-container {
   @include outer-container();
+
+  @include media($not-desktop) {
+    margin: 0 10px;
+  }
 }

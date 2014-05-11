@@ -14,6 +14,8 @@
 class Challenge < ActiveRecord::Base
   extend TimeSplitter::Accessors
 
+  DEADLINE_HOURS = 1
+
   has_many :participations
   has_many :users, through: :participations
 
@@ -31,11 +33,19 @@ class Challenge < ActiveRecord::Base
   end
 
   def attendable? user
-    user && Time.current < deadline && users.exclude?(user)
+    user &&
+      Time.current < participation_deadline &&
+      users.exclude?(user)
   end
 
   def unattendable? user
-    user && Time.current < deadline && users.include?(user)
+    user &&
+      Time.current < participation_deadline &&
+      users.include?(user)
+  end
+
+  def participation_deadline
+    deadline.change(hour: Challenge::DEADLINE_HOURS)
   end
 
 end

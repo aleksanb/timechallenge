@@ -26,6 +26,4 @@ en:
   time:
     formats:
       default: '%H:%M'
-  datetime:
-    formats:
-      default: '%k:%M %B'
+      d_at_t: '%e %B, %Y @ %H:%M'
