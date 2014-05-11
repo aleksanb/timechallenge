@@ -3,9 +3,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -51,12 +48,20 @@ gem 'jbuilder', '~> 1.2'
 # Authorization plugin
 gem 'declarative_authorization'
 
+group :production do
+  # Postgres as database gem
+  gem 'pg'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
 group :development do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
+
   # Live reload of webpage on changes
   gem 'guard'
   gem 'guard-livereload', require: false
@@ -64,6 +69,9 @@ group :development do
 
   # Annotating of models
   gem 'annotate'
+
+  # Simple command execution over SSH. Lightweight deployment tool.
+  gem 'mina'
 end
 
 # Use ActiveModel has_secure_password
