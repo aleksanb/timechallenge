@@ -73,6 +73,8 @@ task :deploy => :environment do
     invoke :'bundle:install'
     invoke :'rails:db_migrate'
     invoke :'rails:assets_precompile'
+
+    invoke :'unicorn:restart'
   end
 end
 
@@ -81,6 +83,13 @@ namespace :unicorn do
   task :start => :environment do
     queue %{cd #{deploy_to}/current/}
     queue %{bundle exec unicorn_rails -c config/unicorn.rb -D -E production}
+  end
+
+  desc "Restart unicorn daemon."
+  task :restart => :environment do
+    queue %{pkill ruby}
+    invoke :'unicorn:start'
+    #queue %{kill -s USR2 `cat #{deploy_to}/current/log/unicorn.pid`}
   end
 end
 
