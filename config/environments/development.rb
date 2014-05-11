@@ -27,9 +27,6 @@ TimeChallenge::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  ENV['GITHUB_KEY'] = 'aab38bbc8070a779063c'
-  ENV['GITHUB_SECRET'] = 'fdc3e072806a04906716e03e850dddf23f71a33c'
-
   # Middleware
   config.middleware.use Rack::LiveReload
 end

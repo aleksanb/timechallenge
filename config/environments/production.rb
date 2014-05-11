@@ -77,7 +77,4 @@ TimeChallenge::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-
-  ENV['GITHUB_KEY'] = '74d802521d2087c81082'
-  ENV['GITHUB_SECRET'] = '9a48328d0a7e32d79895119099547565252fec19'
 end
