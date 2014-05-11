@@ -3,15 +3,19 @@
   %thead
     %tr
       %th Title
+      %th Time
       %th Reward
       %th Location
+      %th Attendees
       %th
   %tbody
     - @challenges.each do |challenge|
       %tr
         %td= link_to challenge.title, challenge
+        %td= challenge.deadline
         %td= challenge.reward
         %td Coming soon
+        %td= challenge.users.count
         - if challenge.attendable?(@current_user)
           %td= link_to 'Attend', challenge_participations_path(challenge), method: :post
 
