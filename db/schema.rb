@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20140510210949) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "buildings", force: true do |t|
     t.integer  "building_id"
     t.string   "nr"
@@ -33,7 +36,7 @@ ActiveRecord::Schema.define(version: 20140510210949) do
     t.integer  "building_id"
   end
 
-  add_index "challenges", ["building_id"], name: "index_challenges_on_building_id"
+  add_index "challenges", ["building_id"], name: "index_challenges_on_building_id", using: :btree
 
   create_table "participations", force: true do |t|
     t.integer  "user_id"
@@ -42,8 +45,8 @@ ActiveRecord::Schema.define(version: 20140510210949) do
     t.datetime "updated_at"
   end
 
-  add_index "participations", ["challenge_id"], name: "index_participations_on_challenge_id"
-  add_index "participations", ["user_id"], name: "index_participations_on_user_id"
+  add_index "participations", ["challenge_id"], name: "index_participations_on_challenge_id", using: :btree
+  add_index "participations", ["user_id"], name: "index_participations_on_user_id", using: :btree
 
   create_table "roles", force: true do |t|
     t.string  "title"
