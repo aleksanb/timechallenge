@@ -1,6 +1,6 @@
 TimeChallenge::Application.routes.draw do
   resources :challenges do
-    resources :participations
+    resources :participations, only: [:create, :destroy]
   end
 
   root 'challenges#index'
