@@ -1,7 +1,7 @@
 class ChallengesController < ApplicationController
 
   def index
-    @challenges = Challenge.upcoming.ordered
+    @challenges = Challenge.upcoming
   end
 
   def show
