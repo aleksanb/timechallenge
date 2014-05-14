@@ -23,7 +23,7 @@ class Challenge < ActiveRecord::Base
   scope :upcoming, -> { where("deadline >= ?", DateTime.current) }
   scope :ordered, -> { order(deadline: :asc) }
 
-  validates :title, :deadline, :reward, :user, presence: true
+  validates :title, :deadline, :reward, :user, :location, presence: true
   validates :deadline,
     date: { after: Proc.new { Date.current }}
 
