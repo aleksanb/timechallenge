@@ -8,6 +8,10 @@ authorization do
   role :user do
     includes :guest
 
+    has_permission_on :challenges, to: :manage do
+      if_attribute :user_id => is { user.id }
+    end
+
     has_permission_on :participations, to: :manage do
       if_attribute :user_id => is  { user.id }
     end
