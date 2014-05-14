@@ -18,11 +18,12 @@ class Challenge < ActiveRecord::Base
 
   has_many :participations
   has_many :users, through: :participations
+  belongs_to :user
 
   scope :upcoming, -> { where("deadline >= ?", DateTime.current) }
   scope :ordered, -> { order(deadline: :asc) }
 
-  validates :title, :deadline, :reward, presence: true
+  validates :title, :deadline, :reward, :user, presence: true
   validates :deadline,
     date: { after: Proc.new { Date.current }}
 

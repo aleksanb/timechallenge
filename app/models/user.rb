@@ -16,6 +16,9 @@ class User < ActiveRecord::Base
   has_many :participations
   has_many :challenges, through: :participations
   has_many :roles
+  has_many :owned_challenges,
+    foreign_key: :user_id,
+    class_name: :Challenge
 
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
