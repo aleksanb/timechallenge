@@ -48,10 +48,10 @@ gem 'jbuilder', '~> 1.2'
 # Authorization plugin
 gem 'declarative_authorization'
 
-group :production do
-  # Postgres as database gem
-  gem 'pg'
+# Postgres as database gem
+gem 'pg'
 
+group :production do
   # L33t webserver
   gem 'unicorn'
 end
@@ -62,9 +62,6 @@ group :doc do
 end
 
 group :development do
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
-
   # Live reload of webpage on changes
   gem 'guard'
   gem 'guard-livereload', require: false
