@@ -14,7 +14,7 @@
         %td= link_to challenge.title, challenge
         %td= l(challenge.deadline, format: :d_at_t)
         %td= challenge.reward
-        %td Coming soon
+        %td= challenge.location
         %td= challenge.users.count
         - if challenge.attendable?(@current_user)
           %td= link_to 'Attend', challenge_participations_path(challenge), method: :post

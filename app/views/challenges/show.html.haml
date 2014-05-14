@@ -13,7 +13,10 @@
   %dt Reward
   %dd= @challenge.reward
 
-  %dt Date
+  %dt Location
+  %dd= @challenge.location
+
+  %dt Time
   %dd= l(@challenge.deadline, format: :d_at_t)
 
   %dt Attending users
@@ -34,4 +37,6 @@
   = link_to 'Attend', challenge_participations_path(@challenge), method: :post
 
 - if @challenge.user == @current_user && permitted_to?(:manage, :challenges)
-  = link_to "Destroy challenge", @challenge, method: :delete, data: { confirm: "Are you sure you wish to destroy this challenge? All attendees will be notified." }
+  %p
+    = link_to "Update", edit_challenge_path(@challenge)
+    = link_to "Destroy", @challenge, method: :delete, data: { confirm: "Are you sure you wish to destroy this challenge? All attendees will be notified." }

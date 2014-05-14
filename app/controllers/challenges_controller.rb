@@ -23,6 +23,21 @@ class ChallengesController < ApplicationController
     end
   end
 
+  def edit
+    @challenge = Challenge.find params[:id]
+  end
+
+  def update
+    @challenge = Challenge.find params[:id]
+    if @challenge.update(challenge_params)
+      flash[:success] = "Challenge successfully updated."
+      redirect_to @challenge
+    else
+      flash.now[:error] = "Error: Challenge not updated."
+      render :edit
+    end
+  end
+
   def destroy
     challenge = Challenge.find params[:id]
     challenge.delete
@@ -34,6 +49,6 @@ class ChallengesController < ApplicationController
   private
   def challenge_params
     params.require(:challenge)
-      .permit(:title, :reward, :deadline_time, :deadline_date, :building_id, :room_id)
+      .permit(:title, :reward, :deadline_time, :deadline_date, :location)
   end
 end
