@@ -16,3 +16,26 @@
     background-color: rgba(75, 33, 33, 1);
   }
 }
+
+
+ul.rules {
+  list-style-type: none;
+
+  li {
+    margin: .5em 0;
+    .paragraph-title {
+      display: inline;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-left: 2em;
+    }
+
+    &::before {
+      content: "§";
+      font-weight: bold;
+      padding-right: .3em;
+    }
+  }
+}
