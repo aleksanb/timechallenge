@@ -1,5 +1,6 @@
+#h2 Tidsutfordringer
+
 %table
-  %caption Upcoming challenges
   %thead
     %tr
       %th Title
@@ -21,3 +22,5 @@
 
 - if permitted_to? :create, :challenges
   = link_to 'Create new challenge', new_challenge_path
+
+= render 'challenges/rules'
