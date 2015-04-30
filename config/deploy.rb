@@ -88,8 +88,7 @@ namespace :unicorn do
 
   desc "Restart unicorn daemon."
   task :restart => :environment do
-    queue %{pkill ruby}
-    invoke :'unicorn:start'
+    queue %{cat /var/www/burkow.no/challenge/current/log/unicorn.pid | xargs kill -HUP}
   end
 end
 
