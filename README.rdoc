@@ -1,8 +1,0 @@
-== Setup
-
-* Create postgres user and database. Fill out the config/database.yml file (make a copy from config/database.example.yml).
-* Run migrations (RAILS_ENV=production bundle exec rake db:migrate)
-* Precompile assets (RAILS_ENV=production bundle exec rake assets:precompile)
-* Change config/unicorn.rb to match your environment
-* Fire up unicorn (bundle exec unicorn_rails -c config/unicorn.rb -D -E production)
-* Add nginx listening stuff
