@@ -81,15 +81,15 @@ end
 namespace :unicorn do
   desc "Start unicorn daemon."
   task :start => :environment do
-    queue %{cd #{deploy_to}/current/}
-    queue %{bundle exec unicorn_rails -c config/unicorn.rb -D -E production}
+    in_directory "#{deploy_to}/current/" do
+      queue %{bundle exec unicorn_rails -c config/unicorn.rb -D -E production}
+    end
   end
 
   desc "Restart unicorn daemon."
   task :restart => :environment do
     queue %{pkill ruby}
     invoke :'unicorn:start'
-    #queue %{kill -s USR2 `cat #{deploy_to}/current/log/unicorn.pid`}
   end
 end
 
