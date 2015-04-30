@@ -4,7 +4,7 @@ Create a postgres user and database for the project:
 
 Fill out the following files.
 Secret_token can be generated with ```rake secret```.
-Get GitHub auth tokens from https://www.github.com.
+Get GitHub auth tokens from https://www.github.com/ (callback should go to http://localhost:3000/auth/github/callback).
 
 - config/database.example.yml -> config/database.yml
 - config/local_env.example.yml -> config/local_env.yml
