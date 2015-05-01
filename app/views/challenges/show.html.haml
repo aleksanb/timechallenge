@@ -3,7 +3,7 @@
 
 -if @challenge.participation_deadline >= Time.current
   .status.attendable
-    Challenge attendable untill
+    Challenge attendable until
     #{l(@challenge.participation_deadline, format: :d_at_t)}
 - elsif
   .status.unattendable
