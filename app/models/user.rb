@@ -33,7 +33,7 @@ class User < ActiveRecord::Base
 
   def gravatar_url(size = 48)
     gravatar_id = Digest::MD5.hexdigest(email || '')
-    "https://secure.gravatar.com/avatar/#{gravatar_id}.png?s=#{size}"
+    "https://secure.gravatar.com/avatar/#{gravatar_id}.png?s=#{size}&d=mm"
   end
 
   def role_symbols
