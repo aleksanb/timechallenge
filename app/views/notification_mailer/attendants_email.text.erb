@@ -1,0 +1,21 @@
+Hello, <%= @user.name %>.
+
+At <%= DateTime.current %>, challenge
+
+<% longest = [@challenge.title, @challenge.reward, @challenge.location, l(@challenge.deadline, format: :d_at_t)].map(&:size).max %>
+title    | <%= @challenge.title.ljust(longest) %>
+reward   | <%= @challenge.reward.ljust(longest) %>
+location | <%= @challenge.location.ljust(longest) %>
+deadline | <%= l(@challenge.deadline, format: :d_at_t).ljust(longest) %>
+
+<% if @challenge.users.any? %>
+has <%= pluralize(@challenge.users.count, 'participant') %>:
+
+<% longest_name = @challenge.users.pluck(:name).map(&:length).max %>
+<% @challenge.participations.each do |participation| %>
+<%= participation.user.name.ljust(longest_name) %> | <%= participation.created_at %>
+<% end %>
+
+<% else %>
+has no participants.
+<% end %>
