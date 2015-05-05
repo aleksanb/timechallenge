@@ -20,7 +20,7 @@ class Challenge < ActiveRecord::Base
   has_many :users, through: :participations
   belongs_to :user
 
-  default_scope order(deadline: :asc)
+  default_scope { order(deadline: :asc) }
   scope :upcoming, -> { where("deadline > ?", Date.current) }
 
   validates :title, :deadline, :reward, :user, :location, presence: true

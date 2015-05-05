@@ -23,7 +23,7 @@ set :shared_paths,
   ['log',
    'config/database.yml',
    'config/local_env.yml',
-   'config/initializers/secret_token.rb']
+   'config/secrets.rb']
 
 # Optional settings:
 #   set :user, 'foobar'    # Username in the server to SSH to.
@@ -59,8 +59,8 @@ task :setup => :environment do
   queue! %[touch "#{deploy_to}/shared/config/local_env.yml"]
   queue  %[echo "-----> Be sure to edit 'shared/config/local_env.yml'."]
 
-  queue! %[touch "#{deploy_to}/shared/config/initializers/secret_token.rb"]
-  queue  %[echo "-----> Be sure to edit 'shared/config/initializers/secret_token.rb'."]
+  queue! %[touch "#{deploy_to}/shared/config/secrets.yml"]
+  queue  %[echo "-----> Be sure to edit 'shared/config/secrets.rb'."]
 end
 
 desc "Deploys the current version to the server."

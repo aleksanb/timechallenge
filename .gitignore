@@ -18,8 +18,8 @@
 *.swp
 
 config/database.yml
+config/secrets.yml
 config/local_env.yml
-config/initializers/secret_token.rb
 
 public/assets/
 public/javascripts/all.js
