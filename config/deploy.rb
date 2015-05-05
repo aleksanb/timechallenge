@@ -23,7 +23,7 @@ set :shared_paths,
   ['log',
    'config/database.yml',
    'config/local_env.yml',
-   'config/secrets.rb']
+   'config/secrets.yml']
 
 # Optional settings:
 #   set :user, 'foobar'    # Username in the server to SSH to.
@@ -50,9 +50,6 @@ task :setup => :environment do
   queue! %[mkdir -p "#{deploy_to}/shared/config"]
   queue! %[chmod g+rx,u+rwx "#{deploy_to}/shared/config"]
 
-  queue! %[mkdir -p "#{deploy_to}/shared/config/initializers"]
-  queue! %[chmod g+rx,u+rwx "#{deploy_to}/shared/config/initializers"]
-
   queue! %[touch "#{deploy_to}/shared/config/database.yml"]
   queue  %[echo "-----> Be sure to edit 'shared/config/database.yml'."]
 
@@ -73,8 +70,6 @@ task :deploy => :environment do
     invoke :'bundle:install'
     invoke :'rails:db_migrate'
     invoke :'rails:assets_precompile'
-
-    invoke :'unicorn:restart'
   end
 end
 
