@@ -52,3 +52,20 @@ ul.rules {
     }
   }
 }
+
+table {
+  .users, .user-count {
+    float: left;
+    margin-right: 5px;
+
+    .gravatar {
+      width: 24px;
+      float: left;
+      margin-right: 5px;
+
+      @media screen and (max-width: 480px) {
+        display: none;
+      }
+    }
+  }
+}
