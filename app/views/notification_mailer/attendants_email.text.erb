@@ -1,0 +1,13 @@
+Hello, <%= @user.name %>.
+
+At registration close, challenge <%= @challenge.title %>:
+<% longest = [@challenge.reward, @challenge.location, l(@challenge.deadline, format: :d_at_t)].map(&:size).last %>
+| reward   | <%= @challenge.reward.ljust(longest) %> |
+| location | <%= @challenge.location.ljust(longest) %> |
+| deadline | <%= l(@challenge.deadline, format: :d_at_t).ljust(longest) %> |
+
+has the attendants
+
+<% @challenge.users.each do |user| %>
+- <%= user.name %> <<%= user.email %>>
+<% end %>
