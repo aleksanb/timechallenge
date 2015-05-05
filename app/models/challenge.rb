@@ -14,7 +14,7 @@
 class Challenge < ActiveRecord::Base
   extend TimeSplitter::Accessors
 
-  DEADLINE_HOURS = 1
+  DEADLINE_HOURS = 0
 
   has_many :participations
   has_many :users, through: :participations

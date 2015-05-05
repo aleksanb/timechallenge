@@ -1,10 +1,10 @@
 %h2
   = @challenge.title
 
--if @challenge.participation_deadline >= Time.current
+-if @challenge.participation_deadline >= DateTime.current
   .status.attendable
     Challenge attendable until
-    #{l(@challenge.participation_deadline, format: :d_at_t)}
+    #{@challenge.participation_deadline}
 - elsif
   .status.unattendable
     Registration deadline has passed. See you there.
@@ -17,7 +17,7 @@
   %dd= @challenge.location
 
   %dt Time
-  %dd= l(@challenge.deadline, format: :d_at_t)
+  %dd= @challenge.deadline
 
   %dt Attending users
   %dd
