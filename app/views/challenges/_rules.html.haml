@@ -34,11 +34,11 @@
   %li
     .paragraph-title 4. (Hva menes med deltager)
     .paragraph-body
-      Med deltager menes en bruker av nettsiden http://challenge.burkow.no/ som er påmeldt den aktuelle tidsutfordtingen.
+      Med deltager menes en bruker av nettsiden #{request.original_url} som er påmeldt den aktuelle tidsutfordtingen.
     %ul
       %li
         .paragraph-title 4.1 (Hva menes med bruker)
-        .paragraph-body Med bruker menes en person med konto på nettsiden http://challenge.burkow.no/.
+        .paragraph-body Med bruker menes en person med konto på nettsiden #{request.original_url}.
 
   %li
     .paragraph-title 5. (Hva menes med at en frist har passert)
