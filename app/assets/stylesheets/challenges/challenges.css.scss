@@ -17,6 +17,19 @@
   }
 }
 
+.users {
+  li {
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0;
+  }
+
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+  }
+}
+
 
 ul.rules {
   list-style-type: none;
