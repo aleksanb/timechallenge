@@ -73,6 +73,15 @@ task :deploy => :environment do
   end
 end
 
+namespace :sidekiq do
+  desc "Start sidekiq daemon."
+  task :start => :environment do
+    in_directory "#{deploy_to}/current/" do
+      queue %{bundle exec sidekiq -c config/sidekiq.yml -D -E production}
+    end
+  end
+end
+
 namespace :unicorn do
   desc "Start unicorn daemon."
   task :start => :environment do

@@ -1,3 +1,5 @@
+require 'sidekiq/web'
+
 TimeChallenge::Application.routes.draw do
   resources :challenges do
     resources :participations, only: [:create, :destroy]
@@ -11,5 +13,7 @@ TimeChallenge::Application.routes.draw do
         via: [:get, :post]
   match 'signout', to: 'sessions#destroy', as: 'signout',
         via: [:get, :post]
+
+  mount Sidekiq::Web, at: '/sidekiq'
 
 end

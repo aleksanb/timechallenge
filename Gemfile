@@ -51,6 +51,11 @@ gem 'declarative_authorization'
 # Postgres as database gem
 gem 'pg'
 
+# Queue manager for ActiveJob
+gem 'sidekiq'
+gem 'sinatra', require: false
+gem 'slim'
+
 group :production do
   # L33t webserver
   gem 'unicorn'
