@@ -29,6 +29,8 @@ class Challenge < ActiveRecord::Base
 
   split_accessor :deadline, default: -> { DateTime.current }
 
+  after_commit :schedule_participant_list_task, if: ->(record) { record.previous_changes.any? }
+
   def to_param
     "#{super.to_param}-#{title}".parameterize
   end
@@ -47,6 +49,14 @@ class Challenge < ActiveRecord::Base
 
   def participation_deadline
     deadline.change(hour: Challenge::DEADLINE_HOURS)
+  end
+
+  private
+
+  def schedule_participant_list_task
+    ParticipantListJob
+      .set(wait_until: participation_deadline)
+      .perform_later(self, updated_at.to_i)
   end
 
 end

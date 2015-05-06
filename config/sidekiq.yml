@@ -1,0 +1,5 @@
+:queues:
+  - development_default
+  - development_mailers
+  - production_default
+  - production_mailers
