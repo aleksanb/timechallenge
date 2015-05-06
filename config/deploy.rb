@@ -77,7 +77,7 @@ namespace :sidekiq do
   desc "Start sidekiq daemon."
   task :start => :environment do
     in_directory "#{deploy_to}/current/" do
-      queue %{bundle exec sidekiq -c config/sidekiq.yml -D -E production}
+      queue %{bundle exec sidekiq -d -L log/sidekiq.log -C config/sidekiq.yml -e production}
     end
   end
 end
