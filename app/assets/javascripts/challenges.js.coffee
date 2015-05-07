@@ -9,3 +9,7 @@ $(document).ready ->
   )
 
   $('.chosen').chosen()
+
+  $('[datetime]').each ->
+    datetime = $(@).attr('datetime')
+    $(@).html(moment(datetime).format('D MMMM, HH:mm'))

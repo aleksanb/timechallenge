@@ -21,4 +21,6 @@
 //
 //= require chosen.jquery.min
 //
+//= require moment.min
+//
 //= require_tree .
