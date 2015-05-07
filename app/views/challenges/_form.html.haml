@@ -4,6 +4,7 @@
     = f.input :reward
     = f.input :location
     = f.input :deadline_date, as: :string, input_html: { class: 'datepicker' }
+    .important Times are in UTC when editing
     = f.input :deadline_time, as: :string, input_html: { class: 'timepicker' }
 
   = f.actions do
