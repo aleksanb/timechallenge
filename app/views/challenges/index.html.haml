@@ -13,7 +13,8 @@
     - @challenges.each do |challenge|
       %tr
         %td= link_to challenge.title, challenge
-        %td= l(challenge.deadline, format: :d_at_t)
+        %td
+          %time{datetime: challenge.deadline.to_time.iso8601}= challenge.deadline
         %td= challenge.reward
         %td= challenge.location
         %td

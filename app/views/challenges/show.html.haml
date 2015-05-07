@@ -4,7 +4,7 @@
 -if @challenge.participation_deadline >= DateTime.current
   .status.attendable
     Challenge attendable until
-    #{@challenge.participation_deadline}
+    %time{datetime: @challenge.participation_deadline.to_time.iso8601}= @challenge.participation_deadline
 - elsif
   .status.unattendable
     Registration deadline has passed. See you there.
@@ -17,7 +17,8 @@
   %dd= @challenge.location
 
   %dt Time
-  %dd= @challenge.deadline
+  %dd
+    %time{datetime: @challenge.deadline.to_time.iso8601}= @challenge.deadline
 
   %dt Attending users
   %dd
