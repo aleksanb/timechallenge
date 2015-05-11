@@ -26,7 +26,7 @@
       %ul.users
         - @challenge.users.each do |user|
           %li
-            = image_tag(user.gravatar_url(size = 40), class: 'gravatar')
+            = image_tag(user.gravatar_url(size = 80), class: 'gravatar')
             %span= user.name
             - if @challenge.unattendable?(@current_user) && @current_user == user
               = link_to 'Ditsj', |
