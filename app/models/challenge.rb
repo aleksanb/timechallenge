@@ -14,8 +14,6 @@
 class Challenge < ActiveRecord::Base
   extend TimeSplitter::Accessors
 
-  DEADLINE_HOURS = 0
-
   has_many :participations
   has_many :users, through: :participations
   belongs_to :user
@@ -48,7 +46,7 @@ class Challenge < ActiveRecord::Base
   end
 
   def participation_deadline
-    deadline.change(hour: Challenge::DEADLINE_HOURS)
+    deadline - 10.hours
   end
 
   private
