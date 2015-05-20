@@ -92,7 +92,9 @@ namespace :unicorn do
 
   desc "Restart unicorn daemon."
   task :restart => :environment do
-    queue %{cat /var/www/burkow.no/challenge/current/log/unicorn.pid | xargs kill -HUP}
+    in_directory "#{deploy_to}/current/" do
+        queue %{cat log/unicorn.pid | xargs kill -HUP}
+    end
   end
 end
 
