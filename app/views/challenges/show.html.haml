@@ -1,6 +1,9 @@
 %h2
   = @challenge.title
 
+= @challenge.participation_deadline
+= DateTime.current
+
 -if @challenge.participation_deadline >= DateTime.current
   .status.attendable
     Challenge attendable until
