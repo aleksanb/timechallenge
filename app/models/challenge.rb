@@ -46,7 +46,7 @@ class Challenge < ActiveRecord::Base
   end
 
   def participation_deadline
-    deadline - 10.hours
+    deadline - 5.hours
   end
 
   private
