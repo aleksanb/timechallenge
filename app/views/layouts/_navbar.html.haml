@@ -6,7 +6,7 @@
     .navbar-right
       %ul
         - if current_user
-          %li= image_tag(current_user.gravatar_url(size = 40), class: 'gravatar')
+          %li= image_tag(current_user.gravatar_url(size = 80), class: 'gravatar')
           %li= link_to current_user.name, root_path
           %li= link_to 'Sign out', signout_path
         - else
